@@ -40,6 +40,6 @@ public class PrimeNumber {
 
         primeList += "\nTotal Prime Numbers from 1 to " + limit + " is " + counter;
 
-        return primeList;
+        return primeList; 
     }
 }
