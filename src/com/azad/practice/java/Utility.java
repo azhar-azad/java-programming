@@ -32,6 +32,10 @@ public class Utility {
         }
     }
 
+    public static String getStringInput() {
+        return scanner.nextLine();
+    }
+
     // Check if user input is positive-integer or not
     public static boolean isInteger(String str) {
         if (str == null) {
