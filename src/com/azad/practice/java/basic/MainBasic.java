@@ -9,6 +9,7 @@ public class MainBasic {
         /*
         BASIC 1: Fibonacci Series in Java
          */
+
         System.out.print("Enter steps: ");
         int userChoice = Utility.getIntegerInput("Enter a positive integer");
 
@@ -17,6 +18,7 @@ public class MainBasic {
 
         // Calling to recursive fibonacci series generator
         System.out.println(Fibonacci.getFibonacciByRecursion(userChoice - 2, 0, 1, "0 1"));
+        
         /*
         END BASIC 1
          */
@@ -60,6 +62,21 @@ public class MainBasic {
         END BASIC 3
          */
 
+
+
+        /*
+        BASIC 4: Factorial
+         */
+
+        System.out.print("Enter a number to get it's factorial: ");
+        int factNum = Utility.getIntegerInput("Enter a positive integer");
+
+        System.out.println(Factorial.getFactorialByLooping(factNum));
+        System.out.println(Factorial.getFactorialByRecursion(factNum));
+
+        /*
+        END BASIC 4
+         */
 
     }
 }
