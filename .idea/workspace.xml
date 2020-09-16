@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="289b6e9d-e6b5-463e-b520-7cbff6630936" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/azad/practice/java/basic/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/azad/practice/java/basic/ArmstrongNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programming/com/azad/practice/java/basic/MainBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-programming/com/azad/practice/java/basic/MainBasic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,17 +31,17 @@
       <file leaf-file-name="MainBasic.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="722">
+              <caret line="95" column="128" lean-forward="true" selection-start-line="95" selection-start-column="128" selection-end-line="95" selection-end-column="128" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Factorial.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/Factorial.java">
+      <file leaf-file-name="ArmstrongNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/ArmstrongNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="437">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -77,6 +76,7 @@
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/Utility.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/Factorial.java" />
+        <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/ArmstrongNumber.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java" />
       </list>
     </option>
@@ -196,7 +196,7 @@
       <workItem from="1599290750843" duration="1473000" />
       <workItem from="1599588595578" duration="1877000" />
       <workItem from="1600176736295" duration="12536000" />
-      <workItem from="1600257022686" duration="901000" />
+      <workItem from="1600257022686" duration="2850000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore added">
       <created>1599241623819</created>
@@ -230,7 +230,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20739000" />
+    <option name="totallyTimeSpent" value="22688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1863" height="1055" extended-state="6" />
@@ -238,7 +238,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Messages" order="6" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.32910052" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -246,7 +246,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.3290392" />
+      <window_info anchor="right" auto_hide="true" x="591" y="80" width="794" height="945" id="Run" order="9" type="SLIDING" weight="0.4261943" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -432,10 +432,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/ArmstrongNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="722">
+          <caret line="95" column="128" lean-forward="true" selection-start-line="95" selection-start-column="128" selection-end-line="95" selection-end-column="128" />
         </state>
       </provider>
     </entry>
