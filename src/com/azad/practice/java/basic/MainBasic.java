@@ -80,23 +80,34 @@ public class MainBasic {
 
 
         /*
-        BASIC 4: Factorial
+        BASIC 5: Armstrong Number
          */
 
-        System.out.print("Enter a number to check if it's Armstrong number or not: ");
-        int armNum = Utility.getIntegerInput("Enter a positive integer");
-
-        if (ArmstrongNumber.isArmstrong(armNum))
-            System.out.println(armNum + " is an Armstrong number");
-        else
-            System.out.println(armNum + " is not370 an Armstrong number");
-
-        System.out.print("Enter a limit to find all Armstrong number: ");
-        int armLimit = Utility.getIntegerInput("Enter a positive integer");
-        System.out.println("All Armstrong numbers from 0 to " + armLimit + ": " + ArmstrongNumber.getArmstrongNumber(armLimit));
+//        System.out.print("Enter a number to check if it's Armstrong number or not: ");
+//        int armNum = Utility.getIntegerInput("Enter a positive integer");
+//
+//        if (ArmstrongNumber.isArmstrong(armNum))
+//            System.out.println(armNum + " is an Armstrong number");
+//        else
+//            System.out.println(armNum + " is not370 an Armstrong number");
+//
+//        System.out.print("Enter a limit to find all Armstrong number: ");
+//        int armLimit = Utility.getIntegerInput("Enter a positive integer");
+//        System.out.println("All Armstrong numbers from 0 to " + armLimit + ": " + ArmstrongNumber.getArmstrongNumber(armLimit));
 
         /*
-        END BASIC 4
+        END BASIC 5
+         */
+
+
+        /*
+        BASIC 6: Random Number
+         */
+
+        // show RandomNumber class
+
+        /*
+        END BASIC 6
          */
     }
 }

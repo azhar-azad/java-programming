@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="289b6e9d-e6b5-463e-b520-7cbff6630936" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/azad/practice/java/basic/ArmstrongNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/azad/practice/java/basic/RandomNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java" afterDir="false" />
     </list>
@@ -31,17 +31,21 @@
       <file leaf-file-name="MainBasic.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="95" column="128" lean-forward="true" selection-start-line="95" selection-start-column="128" selection-end-line="95" selection-end-column="128" />
+            <state relative-caret-position="304">
+              <caret line="85" column="88" lean-forward="true" selection-start-line="85" selection-start-column="88" selection-end-line="95" selection-end-column="130" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArmstrongNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/ArmstrongNumber.java">
+      <file leaf-file-name="RandomNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/RandomNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="684">
+              <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+              <folding>
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/Factorial.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/ArmstrongNumber.java" />
+        <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/RandomNumber.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java" />
       </list>
     </option>
@@ -196,7 +201,7 @@
       <workItem from="1599290750843" duration="1473000" />
       <workItem from="1599588595578" duration="1877000" />
       <workItem from="1600176736295" duration="12536000" />
-      <workItem from="1600257022686" duration="2850000" />
+      <workItem from="1600257022686" duration="4726000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore added">
       <created>1599241623819</created>
@@ -226,15 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600205833215</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Armstrong Number Problem done">
+      <created>1600259952829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600259952830</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22688000" />
+    <option name="totallyTimeSpent" value="24564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1863" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -277,7 +288,8 @@
     <MESSAGE value="Fibonacci Problem done. Closes #1" />
     <MESSAGE value="Prime Number Problem done" />
     <MESSAGE value="Palindrome Problem done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Palindrome Problem done" />
+    <MESSAGE value="Armstrong Number Problem done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Armstrong Number Problem done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -439,10 +451,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/RandomNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="95" column="128" lean-forward="true" selection-start-line="95" selection-start-column="128" selection-end-line="95" selection-end-column="128" />
+        <state relative-caret-position="304">
+          <caret line="85" column="88" lean-forward="true" selection-start-line="85" selection-start-column="88" selection-end-line="95" selection-end-column="130" />
         </state>
       </provider>
     </entry>
