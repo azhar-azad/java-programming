@@ -1,4 +1,4 @@
-package com.azad.practice.java.basic;
+package com.azad.practice.java.basic.basicHelpers;
 
 public class ArmstrongNumber {
 

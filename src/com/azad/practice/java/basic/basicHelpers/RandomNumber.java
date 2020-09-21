@@ -1,4 +1,4 @@
-package com.azad.practice.java.basic;
+package com.azad.practice.java.basic.basicHelpers;
 
 import java.util.Random;
 

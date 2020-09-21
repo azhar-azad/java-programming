@@ -1,4 +1,4 @@
-package com.azad.practice.java.array;
+package com.azad.practice.java.array.arrayHelpers;
 
 import com.azad.practice.java.Utility;
 

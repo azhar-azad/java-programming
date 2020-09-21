@@ -1,5 +1,7 @@
 package com.azad.practice.java.array;
 
+import com.azad.practice.java.array.arrayHelpers.Array;
+
 public class MainArray {
 
     public static void main(String[] args) {
