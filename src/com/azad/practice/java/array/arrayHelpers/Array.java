@@ -9,11 +9,13 @@ public class Array {
 
     private List<String> elementArray;
     private List<Integer> freqArray;
+    private List<String> duplicatesArray;
     private Integer elementArrayLength;
 
     public Array() {
         this.elementArray = new ArrayList<>();
         this.freqArray = new ArrayList<>();
+        this.duplicatesArray = new ArrayList<>();
         this.elementArrayLength = 0;
     }
 
@@ -67,8 +69,16 @@ public class Array {
         }
     }
 
-    public void setFreqArray(List<Integer> freqArray) {
-        this.freqArray = freqArray;
+    public List<String> getDuplicatesArray() {
+        return duplicatesArray;
+    }
+
+    public void setDuplicatesArray() {
+
+        for (int i = 0; i < elementArrayLength; i++) {
+            if (freqArray.get(i) > 1)
+                duplicatesArray.add(elementArray.get(i));
+        }
     }
 
     public Integer getElementArrayLength() {
@@ -92,5 +102,18 @@ public class Array {
         }
 
         System.out.println("----------------------------------------");
+    }
+
+    public void showDuplicates() {
+        System.out.println("Duplicate elements of array: ");
+
+        for (String element: duplicatesArray)
+            System.out.print(element + " ");
+    }
+
+    public void reset() {
+        this.elementArray.clear();
+        this.freqArray.clear();
+        this.elementArrayLength = 0;
     }
 }
