@@ -131,6 +131,16 @@ public class Array {
         return smallest;
     }
 
+    public int getSum() {
+
+        int sum = 0;
+
+        for (String element: elements)
+            sum += Integer.parseInt(element);
+
+        return sum;
+    }
+
     public void showFrequencies() {
 
         System.out.println("---------------------------------------");
