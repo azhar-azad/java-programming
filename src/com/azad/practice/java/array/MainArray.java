@@ -80,14 +80,14 @@ public class MainArray {
         /*
         ARRAY 5: Print the largest element
          */
-        System.out.println("\n\nArray Largest Element Printing\n============================\n");
-
-        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
-        array.setElements("ALL");
-
-        System.out.println("Largest element is " + array.getLargest());
-
-        array.reset();
+//        System.out.println("\n\nArray Largest Element Printing\n============================\n");
+//
+//        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
+//        array.setElements("ALL");
+//
+//        System.out.println("Largest element is " + array.getLargest());
+//
+//        array.reset();
         /*
         END ARRAY 5
          */
@@ -96,14 +96,14 @@ public class MainArray {
         /*
         ARRAY 6: Print the smallest element
          */
-        System.out.println("\n\nArray Smallest Element Printing\n============================\n");
-
-        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
-        array.setElements("ALL");
-
-        System.out.println("Smallest element is " + array.getSmallest());
-
-        array.reset();
+//        System.out.println("\n\nArray Smallest Element Printing\n============================\n");
+//
+//        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
+//        array.setElements("ALL");
+//
+//        System.out.println("Smallest element is " + array.getSmallest());
+//
+//        array.reset();
         /*
         END ARRAY 6
          */
@@ -191,6 +191,25 @@ public class MainArray {
 //        array.reset();
         /*
         END ARRAY 11
+         */
+
+
+        /*
+        ARRAY 12: Find nth smallest number in array
+         */
+        System.out.println("\n\nFind the n-th smallest number in array\n============================\n");
+
+        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
+        array.setElements("ALL");
+        array.setElementsSorted("asc");
+
+        System.out.print("To find the n-th smallest number, enter the value of n: ");
+        int n = Utility.getIntegerInput("Not Allowed");
+        System.out.println(n + "th Smallest Element is: " + array.getElement(n));
+
+        array.reset();
+        /*
+        END ARRAY 12
          */
     }
 }
