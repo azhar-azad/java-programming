@@ -1,5 +1,6 @@
 package com.azad.practice.java.array;
 
+import com.azad.practice.java.Utility;
 import com.azad.practice.java.array.arrayHelpers.Array;
 
 public class MainArray {
@@ -160,17 +161,35 @@ public class MainArray {
         /*
         ARRAY 10: Sort the array in descending order
          */
-        System.out.println("\n\nArray Sorting (descending)\n============================\n");
+//        System.out.println("\n\nArray Sorting (descending)\n============================\n");
+//
+//        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
+//        array.setElements("ALL");
+//
+//        array.setElementsSorted("desc");
+//        array.showElementsSorted();
+//
+//        array.reset();
+        /*
+        END ARRAY 10
+         */
+
+
+        /*
+        ARRAY 11: Find nth largest number in array
+         */
+        System.out.println("\n\nFind the n-th largest number in array\n============================\n");
 
         System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
         array.setElements("ALL");
 
-        array.setElementsSorted("desc");
-        array.showElementsSorted();
+        System.out.print("To find the n-th largest number, enter the value of n: ");
+        int n = Utility.getIntegerInput("Not Allowed");
+        System.out.println(n + "th Largest Element is: " + array.getElement(n));
 
         array.reset();
         /*
-        END ARRAY 10
+        END ARRAY 11
          */
     }
 }

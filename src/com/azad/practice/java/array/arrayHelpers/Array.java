@@ -157,6 +157,16 @@ public class Array {
         return sum;
     }
 
+    public String getElement(int n) {
+
+        if (n <= 0 || getElementArrayLength() < n)
+            return "ERROR: " + n + "th element is not present";
+
+        setElementsSorted("desc");
+
+        return elementsSorted.get(n-1);
+    }
+
     public void showFrequencies() {
 
         System.out.println("---------------------------------------");
