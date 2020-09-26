@@ -80,14 +80,14 @@ public class MainArray {
         /*
         ARRAY 5: Print the largest element
          */
-//        System.out.println("\n\nArray Largest Element Printing\n============================\n");
-//
-//        System.out.println("Enter an array of elements(integers only)");
-//        array.setElements("NUMBER");
-//
-//        System.out.println("Largest number is " + array.getLargest());
-//
-//        array.reset();
+        System.out.println("\n\nArray Largest Element Printing\n============================\n");
+
+        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
+        array.setElements("ALL");
+
+        System.out.println("Largest element is " + array.getLargest());
+
+        array.reset();
         /*
         END ARRAY 5
          */
@@ -96,14 +96,14 @@ public class MainArray {
         /*
         ARRAY 6: Print the smallest element
          */
-//        System.out.println("\n\nArray Smallest Element Printing\n============================\n");
-//
-//        System.out.println("Enter an array of elements(integers only)");
-//        array.setElements("NUMBER");
-//
-//        System.out.println("Smallest number is " + array.getSmallest());
-//
-//        array.reset();
+        System.out.println("\n\nArray Smallest Element Printing\n============================\n");
+
+        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
+        array.setElements("ALL");
+
+        System.out.println("Smallest element is " + array.getSmallest());
+
+        array.reset();
         /*
         END ARRAY 6
          */
@@ -178,16 +178,17 @@ public class MainArray {
         /*
         ARRAY 11: Find nth largest number in array
          */
-        System.out.println("\n\nFind the n-th largest number in array\n============================\n");
-
-        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
-        array.setElements("ALL");
-
-        System.out.print("To find the n-th largest number, enter the value of n: ");
-        int n = Utility.getIntegerInput("Not Allowed");
-        System.out.println(n + "th Largest Element is: " + array.getElement(n));
-
-        array.reset();
+//        System.out.println("\n\nFind the n-th largest number in array\n============================\n");
+//
+//        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
+//        array.setElements("ALL");
+//        array.setElementsSorted("desc");
+//
+//        System.out.print("To find the n-th largest number, enter the value of n: ");
+//        int n = Utility.getIntegerInput("Not Allowed");
+//        System.out.println(n + "th Largest Element is: " + array.getElement(n));
+//
+//        array.reset();
         /*
         END ARRAY 11
          */

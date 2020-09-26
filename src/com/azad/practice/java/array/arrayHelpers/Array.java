@@ -121,30 +121,16 @@ public class Array {
         return elementArrayLength;
     }
 
-    public int getLargest() {
+    public String getLargest() {
 
-        int largest = -99999999;
-
-        for (String element: elements) {
-            int numElement = Integer.parseInt(element);
-            if (numElement > largest)
-                largest = numElement;
-        }
-
-        return largest;
+        setElementsSorted("desc");
+        return getElement(1);
     }
 
-    public int getSmallest() {
+    public String getSmallest() {
 
-        int smallest = 99999999;
-
-        for (String element: elements) {
-            int numElement = Integer.parseInt(element);
-            if (numElement < smallest)
-                smallest = numElement;
-        }
-
-        return smallest;
+        setElementsSorted("asc");
+        return getElement(1);
     }
 
     public int getSum() {
@@ -161,8 +147,6 @@ public class Array {
 
         if (n <= 0 || getElementArrayLength() < n)
             return "ERROR: " + n + "th element is not present";
-
-        setElementsSorted("desc");
 
         return elementsSorted.get(n-1);
     }

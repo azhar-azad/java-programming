@@ -31,20 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainArray.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="150" column="36" selection-start-line="150" selection-start-column="36" selection-end-line="150" selection-end-column="36" />
+            <state relative-caret-position="247">
+              <caret line="87" column="73" lean-forward="true" selection-start-line="87" selection-start-column="73" selection-end-line="87" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Array.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Array.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="110" column="73" lean-forward="true" selection-start-line="110" selection-start-column="73" selection-end-line="110" selection-end-column="73" />
+            <state relative-caret-position="563">
+              <caret line="148" column="63" selection-start-line="148" selection-start-column="63" selection-end-line="148" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2637#2638#0" expanded="true" />
@@ -91,8 +94,8 @@
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/ArrayFrequency.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/Utility.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/Array.java" />
+        <option value="$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java" />
       </list>
     </option>
   </component>
@@ -266,7 +269,7 @@
       <workItem from="1600857718362" duration="2412000" />
       <workItem from="1601051413083" duration="1514000" />
       <workItem from="1601133957739" duration="22000" />
-      <workItem from="1601137722339" duration="6221000" />
+      <workItem from="1601137722339" duration="8168000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore added">
       <created>1599241623819</created>
@@ -394,11 +397,25 @@
       <option name="project" value="LOCAL" />
       <updated>1601143848919</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Array Sorting (descending) done.">
+      <created>1601144104625</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1601144104625</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Array Find the nth largest element done">
+      <created>1601145424161</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601145424161</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49707000" />
+    <option name="totallyTimeSpent" value="51654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1863" height="1055" extended-state="6" />
@@ -459,7 +476,9 @@
     <MESSAGE value="Array Number of Element Count Printing done." />
     <MESSAGE value="Sum of Array Numbers Printing done." />
     <MESSAGE value="Array Sorting (ascending) done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Array Sorting (ascending) done." />
+    <MESSAGE value="Array Sorting (descending) done." />
+    <MESSAGE value="Array Find the nth largest element done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array Find the nth largest element done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -838,21 +857,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="150" column="36" selection-start-line="150" selection-start-column="36" selection-end-line="150" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="110" column="73" lean-forward="true" selection-start-line="110" selection-start-column="73" selection-end-line="110" selection-end-column="73" />
+        <state relative-caret-position="563">
+          <caret line="148" column="63" selection-start-line="148" selection-start-column="63" selection-end-line="148" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2637#2638#0" expanded="true" />
             <element signature="e#2678#2679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="87" column="73" lean-forward="true" selection-start-line="87" selection-start-column="73" selection-end-line="87" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
