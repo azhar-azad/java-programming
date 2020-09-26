@@ -127,16 +127,33 @@ public class MainArray {
         /*
         ARRAY 8: Print sum of all numbers present in array
          */
-        System.out.println("\n\nSum of Array Numbers\n============================\n");
+//        System.out.println("\n\nSum of Array Numbers\n============================\n");
+//
+//        System.out.println("Enter an array of elements(integers only)");
+//        array.setElements("NUMBER");
+//
+//        System.out.println("Sum of all numbers is " + array.getSum());
+//
+//        array.reset();
+        /*
+        END ARRAY 8
+         */
 
-        System.out.println("Enter an array of elements(integers only)");
-        array.setElements("NUMBER");
 
-        System.out.println("Sum of all numbers is " + array.getSum());
+        /*
+        ARRAY 9: Sort the array in ascending order
+         */
+        System.out.println("\n\nArray Sorting (ascending)\n============================\n");
+
+        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
+        array.setElements("ALL");
+
+        array.setElementsSorted();
+        array.showElementsSorted();
 
         array.reset();
         /*
-        END ARRAY 8
+        END ARRAY 9
          */
     }
 }

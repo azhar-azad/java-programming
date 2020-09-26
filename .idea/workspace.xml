@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="289b6e9d-e6b5-463e-b520-7cbff6630936" name="Default" comment="" />
+    <list default="true" id="289b6e9d-e6b5-463e-b520-7cbff6630936" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/Array.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <manually-removed-from-ignored>
       <directory path=".idea/" />
@@ -30,8 +34,8 @@
       <file leaf-file-name="MainArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="113" column="53" selection-start-line="113" selection-start-column="53" selection-end-line="113" selection-end-column="53" />
+            <state relative-caret-position="228">
+              <caret line="129" column="72" selection-start-line="129" selection-start-column="72" selection-end-line="134" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -39,8 +43,8 @@
       <file leaf-file-name="Array.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+            <state relative-caret-position="608">
+              <caret line="189" column="29" lean-forward="true" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2637#2638#0" expanded="true" />
@@ -262,7 +266,7 @@
       <workItem from="1600857718362" duration="2412000" />
       <workItem from="1601051413083" duration="1514000" />
       <workItem from="1601133957739" duration="22000" />
-      <workItem from="1601137722339" duration="4759000" />
+      <workItem from="1601137722339" duration="5908000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore added">
       <created>1599241623819</created>
@@ -376,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1601142491101</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Sum of Array Numbers Printing done.">
+      <created>1601142739223</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601142739223</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48245000" />
+    <option name="totallyTimeSpent" value="49394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1863" height="1055" extended-state="6" />
@@ -439,7 +450,8 @@
     <MESSAGE value="Array Largest Element Printing done." />
     <MESSAGE value="Array Smallest Element Printing done." />
     <MESSAGE value="Array Number of Element Count Printing done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Array Number of Element Count Printing done." />
+    <MESSAGE value="Sum of Array Numbers Printing done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Sum of Array Numbers Printing done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -820,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+        <state relative-caret-position="608">
+          <caret line="189" column="29" lean-forward="true" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2637#2638#0" expanded="true" />
@@ -832,8 +844,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="113" column="53" selection-start-line="113" selection-start-column="53" selection-end-line="113" selection-end-column="53" />
+        <state relative-caret-position="228">
+          <caret line="129" column="72" selection-start-line="129" selection-start-column="72" selection-end-line="134" selection-end-column="72" />
         </state>
       </provider>
     </entry>

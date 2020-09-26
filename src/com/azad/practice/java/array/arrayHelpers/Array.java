@@ -3,6 +3,8 @@ package com.azad.practice.java.array.arrayHelpers;
 import com.azad.practice.java.Utility;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class Array {
@@ -11,6 +13,7 @@ public class Array {
     private List<Integer> frequencies;
     private List<String> duplicates;
     private List<String> elementsReversed;
+    private List<String> elementsSorted;
     private Integer elementArrayLength;
 
     public Array() {
@@ -18,6 +21,7 @@ public class Array {
         this.frequencies = new ArrayList<>();
         this.duplicates = new ArrayList<>();
         this.elementsReversed = new ArrayList<>();
+        this.elementsSorted = new ArrayList<>();
         this.elementArrayLength = 0;
     }
 
@@ -97,6 +101,12 @@ public class Array {
             elementsReversed.add(elements.get(i));
     }
 
+    public void setElementsSorted() {
+
+        elementsSorted = elements;
+        Collections.sort(elementsSorted);
+    }
+
     public void setElementArrayLength() {
         this.elementArrayLength = elements.size();
     }
@@ -172,6 +182,12 @@ public class Array {
         System.out.println("Elements of the array in reverse order: ");
 
         show(elementsReversed);
+    }
+
+    public void showElementsSorted() {
+        System.out.println("Elements of the array sorted (ascending): ");
+
+        show(elementsSorted);
     }
 
     private void show(List<String> list) {
