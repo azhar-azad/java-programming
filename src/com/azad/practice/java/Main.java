@@ -2,6 +2,7 @@ package com.azad.practice.java;
 
 import com.azad.practice.java.array.MainArray;
 import com.azad.practice.java.basic.MainBasic;
+import com.azad.practice.java.matrix.MainMatrix;
 
 public class Main {
 
@@ -10,9 +11,8 @@ public class Main {
 
 //        MainBasic.main(args);
 
-        MainArray.main(args);
+//        MainArray.main(args);
 
-//        int choice = Utility.getIntegerInput("something");
-//        System.out.println(choice);
+        MainMatrix.main(args);
     }
 }
