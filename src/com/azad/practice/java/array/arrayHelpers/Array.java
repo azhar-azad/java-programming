@@ -19,10 +19,6 @@ public class Array {
         this.elementArrayLength = 0;
     }
 
-    public List<String> getElementArray() {
-        return elementArray;
-    }
-
     public void setElementArray() {
         System.out.println("Enter the elements (if finished, type ! and press enter): ");
 
@@ -37,14 +33,6 @@ public class Array {
         }
 
         setElementArrayLength();
-    }
-
-    public void setElementArray(List<String> elementArray) {
-        this.elementArray = elementArray;
-    }
-
-    public List<Integer> getFreqArray() {
-        return freqArray;
     }
 
     public void setFreqArray() {
@@ -69,20 +57,12 @@ public class Array {
         }
     }
 
-    public List<String> getDuplicatesArray() {
-        return duplicatesArray;
-    }
-
     public void setDuplicatesArray() {
 
         for (int i = 0; i < elementArrayLength; i++) {
             if (freqArray.get(i) > 1)
                 duplicatesArray.add(elementArray.get(i));
         }
-    }
-
-    public Integer getElementArrayLength() {
-        return elementArrayLength;
     }
 
     public void setElementArrayLength() {
@@ -108,6 +88,13 @@ public class Array {
         System.out.println("Duplicate elements of array: ");
 
         for (String element: duplicatesArray)
+            System.out.print(element + " ");
+    }
+
+    public void showElements() {
+        System.out.println("Elements of the array: ");
+
+        for (String element: elementArray)
             System.out.print(element + " ");
     }
 

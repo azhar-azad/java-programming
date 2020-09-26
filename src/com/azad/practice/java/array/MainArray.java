@@ -26,20 +26,36 @@ public class MainArray {
 
 
         /*
-        ARRAY 2: Find the duplicates elements in array
+        ARRAY 2: Find the duplicate elements in array
          */
-        System.out.println("\n\nArray elements duplicates finding Problem\n============================\n");
+//        System.out.println("\n\nArray elements duplicates finding Problem\n============================\n");
+//
+//        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings.");
+//        array.setElementArray();
+//
+//        array.setFreqArray();
+//        array.setDuplicatesArray();
+//        array.showDuplicates();
+//
+//        array.reset();
+        /*
+        END ARRAY 2
+         */
+
+
+        /*
+        ARRAY 3: Print the elements of the array
+         */
+        System.out.println("\n\nArray Elements Printing\n============================\n");
 
         System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings.");
-
         array.setElementArray();
-        array.setFreqArray();
-        array.setDuplicatesArray();
-        array.showDuplicates();
+
+        array.showElements();
 
         array.reset();
         /*
-        END ARRAY 2
+        END ARRAY 3
          */
     }
 }
