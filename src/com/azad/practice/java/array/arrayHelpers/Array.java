@@ -101,10 +101,16 @@ public class Array {
             elementsReversed.add(elements.get(i));
     }
 
-    public void setElementsSorted() {
+    public void setElementsSorted(String order) {
 
         elementsSorted = elements;
-        Collections.sort(elementsSorted);
+
+        if (order.equals("asc"))
+            Collections.sort(elementsSorted);
+        else if (order.equals("desc"))
+            Collections.sort(elementsSorted, Collections.reverseOrder());
+        else
+            System.out.println("Add if clause for new order " + order);
     }
 
     public void setElementArrayLength() {

@@ -143,17 +143,34 @@ public class MainArray {
         /*
         ARRAY 9: Sort the array in ascending order
          */
-        System.out.println("\n\nArray Sorting (ascending)\n============================\n");
+//        System.out.println("\n\nArray Sorting (ascending)\n============================\n");
+//
+//        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
+//        array.setElements("ALL");
+//
+//        array.setElementsSorted("asc");
+//        array.showElementsSorted();
+//
+//        array.reset();
+        /*
+        END ARRAY 9
+         */
+
+
+        /*
+        ARRAY 10: Sort the array in descending order
+         */
+        System.out.println("\n\nArray Sorting (descending)\n============================\n");
 
         System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
         array.setElements("ALL");
 
-        array.setElementsSorted();
+        array.setElementsSorted("desc");
         array.showElementsSorted();
 
         array.reset();
         /*
-        END ARRAY 9
+        END ARRAY 10
          */
     }
 }
