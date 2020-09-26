@@ -13,7 +13,7 @@ public class MainArray {
          */
 //        System.out.println("\n\nArray elements frequency Problem\n============================\n");
 //
-//        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings.");
+//        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
 //
 //        array.setElementArray();
 //        array.setFreqArray();
@@ -30,7 +30,7 @@ public class MainArray {
          */
 //        System.out.println("\n\nArray elements duplicates finding Problem\n============================\n");
 //
-//        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings.");
+//        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
 //        array.setElementArray();
 //
 //        array.setFreqArray();
@@ -46,16 +46,33 @@ public class MainArray {
         /*
         ARRAY 3: Print the elements of the array
          */
+//        System.out.println("\n\nArray Elements Printing\n============================\n");
+//
+//        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
+//        array.setElementArray();
+//
+//        array.showElements();
+//
+//        array.reset();
+        /*
+        END ARRAY 3
+         */
+
+
+        /*
+        ARRAY 4: Print the elements of the array in reverse order
+         */
         System.out.println("\n\nArray Elements Printing\n============================\n");
 
-        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings.");
+        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
         array.setElementArray();
 
-        array.showElements();
+        array.setElementsReversed();
+        array.showElementsReversed();
 
         array.reset();
         /*
-        END ARRAY 3
+        END ARRAY 4
          */
     }
 }

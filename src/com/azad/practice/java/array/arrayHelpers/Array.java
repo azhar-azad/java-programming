@@ -7,15 +7,17 @@ import java.util.List;
 
 public class Array {
 
-    private List<String> elementArray;
-    private List<Integer> freqArray;
-    private List<String> duplicatesArray;
+    private List<String> elements;
+    private List<Integer> frequencies;
+    private List<String> duplicates;
+    private List<String> elementsReversed;
     private Integer elementArrayLength;
 
     public Array() {
-        this.elementArray = new ArrayList<>();
-        this.freqArray = new ArrayList<>();
-        this.duplicatesArray = new ArrayList<>();
+        this.elements = new ArrayList<>();
+        this.frequencies = new ArrayList<>();
+        this.duplicates = new ArrayList<>();
+        this.elementsReversed = new ArrayList<>();
         this.elementArrayLength = 0;
     }
 
@@ -28,8 +30,8 @@ public class Array {
             if (userInput.equals("!"))
                 break;
 
-            elementArray.add(userInput);
-            freqArray.add(0);
+            elements.add(userInput);
+            frequencies.add(0);
         }
 
         setElementArrayLength();
@@ -41,32 +43,38 @@ public class Array {
 
         for (int i = 0; i < elementArrayLength; i++) {
 
-            if (freqArray.get(i) == visited)
+            if (frequencies.get(i) == visited)
                 continue;
 
             int count = 1;
 
             for (int j = i + 1; j < elementArrayLength; j++) {
-                if (elementArray.get(i).equals(elementArray.get(j))) {
+                if (elements.get(i).equals(elements.get(j))) {
                     count++;
-                    freqArray.set(j, visited);
+                    frequencies.set(j, visited);
                 }
             }
 
-            freqArray.set(i, count);
+            frequencies.set(i, count);
         }
     }
 
     public void setDuplicatesArray() {
 
         for (int i = 0; i < elementArrayLength; i++) {
-            if (freqArray.get(i) > 1)
-                duplicatesArray.add(elementArray.get(i));
+            if (frequencies.get(i) > 1)
+                duplicates.add(elements.get(i));
         }
     }
 
+    public void setElementsReversed() {
+
+        for (int i = elementArrayLength - 1; i >= 0; i--)
+            elementsReversed.add(elements.get(i));
+    }
+
     public void setElementArrayLength() {
-        this.elementArrayLength = elementArray.size();
+        this.elementArrayLength = elements.size();
     }
 
     public void showFrequencies() {
@@ -77,30 +85,40 @@ public class Array {
 
         for (int i = 0; i < elementArrayLength; i++) {
 
-            if (freqArray.get(i) != -1)
-                System.out.println("    " + elementArray.get(i) + "    |    " + freqArray.get(i));
+            if (frequencies.get(i) != -1)
+                System.out.println("    " + elements.get(i) + "    |    " + frequencies.get(i));
         }
 
         System.out.println("----------------------------------------");
     }
 
-    public void showDuplicates() {
-        System.out.println("Duplicate elements of array: ");
+    private void show(List<String> list) {
 
-        for (String element: duplicatesArray)
-            System.out.print(element + " ");
+        for (String item: list)
+            System.out.print(item + " ");
     }
 
     public void showElements() {
         System.out.println("Elements of the array: ");
 
-        for (String element: elementArray)
-            System.out.print(element + " ");
+        show(elements);
+    }
+
+    public void showDuplicates() {
+        System.out.println("Duplicate elements of array: ");
+
+        show(duplicates);
+    }
+
+    public void showElementsReversed() {
+        System.out.println("Elements of the array in reverse order: ");
+
+        show(elementsReversed);
     }
 
     public void reset() {
-        this.elementArray.clear();
-        this.freqArray.clear();
+        this.elements.clear();
+        this.frequencies.clear();
         this.elementArrayLength = 0;
     }
 }
