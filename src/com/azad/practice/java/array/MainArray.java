@@ -79,16 +79,32 @@ public class MainArray {
         /*
         ARRAY 5: Print the largest element
          */
-        System.out.println("\n\nArray Largest Element Printing\n============================\n");
+//        System.out.println("\n\nArray Largest Element Printing\n============================\n");
+//
+//        System.out.println("Enter an array of elements(integers only)");
+//        array.setElements("NUMBER");
+//
+//        System.out.println("Largest number is " + array.getLargest());
+//
+//        array.reset();
+        /*
+        END ARRAY 5
+         */
+
+
+        /*
+        ARRAY 6: Print the smallest element
+         */
+        System.out.println("\n\nArray Smallest Element Printing\n============================\n");
 
         System.out.println("Enter an array of elements(integers only)");
         array.setElements("NUMBER");
 
-        System.out.println("Largest number is " + array.getLargest());
+        System.out.println("Smallest number is " + array.getSmallest());
 
         array.reset();
         /*
-        END ARRAY 5
+        END ARRAY 6
          */
     }
 }

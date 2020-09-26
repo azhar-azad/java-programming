@@ -114,6 +114,19 @@ public class Array {
         return largest;
     }
 
+    public int getSmallest() {
+
+        int smallest = 99999999;
+
+        for (String element: elements) {
+            int numElement = Integer.parseInt(element);
+            if (numElement < smallest)
+                smallest = numElement;
+        }
+
+        return smallest;
+    }
+
     public void showFrequencies() {
 
         System.out.println("---------------------------------------");
