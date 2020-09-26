@@ -3,7 +3,6 @@ package com.azad.practice.java.array.arrayHelpers;
 import com.azad.practice.java.Utility;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -199,6 +198,9 @@ public class Array {
     public void reset() {
         this.elements.clear();
         this.frequencies.clear();
+        this.duplicates.clear();
+        this.elementsReversed.clear();
+        this.elementsSorted.clear();
         this.elementArrayLength = 0;
     }
 }
