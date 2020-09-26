@@ -95,16 +95,32 @@ public class MainArray {
         /*
         ARRAY 6: Print the smallest element
          */
-        System.out.println("\n\nArray Smallest Element Printing\n============================\n");
+//        System.out.println("\n\nArray Smallest Element Printing\n============================\n");
+//
+//        System.out.println("Enter an array of elements(integers only)");
+//        array.setElements("NUMBER");
+//
+//        System.out.println("Smallest number is " + array.getSmallest());
+//
+//        array.reset();
+        /*
+        END ARRAY 6
+         */
 
-        System.out.println("Enter an array of elements(integers only)");
-        array.setElements("NUMBER");
 
-        System.out.println("Smallest number is " + array.getSmallest());
+        /*
+        ARRAY 7: Print number of elements present in array
+         */
+        System.out.println("\n\nArray Number of Elements Count\n============================\n");
+
+        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
+        array.setElements("ALL");
+
+        System.out.println("Number of elements present is " + array.getElementArrayLength());
 
         array.reset();
         /*
-        END ARRAY 6
+        END ARRAY 7
          */
     }
 }

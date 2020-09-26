@@ -101,6 +101,10 @@ public class Array {
         this.elementArrayLength = elements.size();
     }
 
+    public Integer getElementArrayLength() {
+        return elementArrayLength;
+    }
+
     public int getLargest() {
 
         int largest = -99999999;
