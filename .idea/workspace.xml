@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="289b6e9d-e6b5-463e-b520-7cbff6630936" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/azad/practice/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/azad/practice/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/azad/practice/java/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/azad/practice/java/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/Array.java" afterDir="false" />
     </list>
@@ -19,20 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainBasic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,8 +36,8 @@
       <file leaf-file-name="MainArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+            <state relative-caret-position="703">
+              <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -52,8 +45,8 @@
       <file leaf-file-name="Array.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="97" column="44" lean-forward="true" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="44" />
+            <state relative-caret-position="582">
+              <caret line="113" column="23" lean-forward="true" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +57,8 @@
       <file leaf-file-name="Utility.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/Utility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="532">
+              <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -88,18 +81,18 @@
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/PrimeNumber.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/com/azad/practice/java/Utility.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/Factorial.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/ArmstrongNumber.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/RandomNumber.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java" />
-        <option value="$PROJECT_DIR$/src/com/azad/practice/java/Main.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/array/Frequency.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/array/Array.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/ArrayFrequency.java" />
+        <option value="$PROJECT_DIR$/src/com/azad/practice/java/Utility.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/Array.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java" />
+        <option value="$PROJECT_DIR$/src/com/azad/practice/java/Main.java" />
       </list>
     </option>
   </component>
@@ -273,7 +266,7 @@
       <workItem from="1600857718362" duration="2412000" />
       <workItem from="1601051413083" duration="1514000" />
       <workItem from="1601133957739" duration="22000" />
-      <workItem from="1601137722339" duration="698000" />
+      <workItem from="1601137722339" duration="3730000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore added">
       <created>1599241623819</created>
@@ -352,11 +345,25 @@
       <option name="project" value="LOCAL" />
       <updated>1600728296102</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Array Printing done.">
+      <created>1601138513770</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601138513770</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Array Printing (reverse order) done.">
+      <created>1601139490069</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601139490069</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44184000" />
+    <option name="totallyTimeSpent" value="47216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1863" height="1055" extended-state="6" />
@@ -364,6 +371,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.32910052" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -375,7 +383,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15351583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15351583" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -385,7 +393,6 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.32910052" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
@@ -410,7 +417,9 @@
     <MESSAGE value="Array Frequency Problem done." />
     <MESSAGE value="Project Structure updated. Helper classes are separated." />
     <MESSAGE value="Array Duplicates finding problem done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Array Duplicates finding problem done." />
+    <MESSAGE value="Array Printing done." />
+    <MESSAGE value="Array Printing (reverse order) done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Array Printing (reverse order) done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -712,21 +721,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/Frequency.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/basicHelpers/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/basicHelpers/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -762,10 +757,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/basicHelpers/Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="97" column="44" lean-forward="true" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="44" />
+        <state relative-caret-position="582">
+          <caret line="113" column="23" lean-forward="true" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -774,22 +790,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/basic/MainBasic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="91" />
+        <state relative-caret-position="703">
+          <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="285">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

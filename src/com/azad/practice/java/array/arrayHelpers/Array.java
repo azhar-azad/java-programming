@@ -21,23 +21,47 @@ public class Array {
         this.elementArrayLength = 0;
     }
 
-    public void setElementArray() {
+    public void setElements(String type) {
+
         System.out.println("Enter the elements (if finished, type ! and press enter): ");
 
-        for (;;) {
-            String userInput = Utility.getStringInput();
+        if (type.equals("ALL")) {
 
-            if (userInput.equals("!"))
-                break;
+            for (;;) {
+                String userInput = Utility.getStringInput();
 
-            elements.add(userInput);
-            frequencies.add(0);
+                if (userInput.equals("!"))
+                    break;
+
+                elements.add(userInput);
+                frequencies.add(0);
+            }
+        }
+        else if (type.equals("NUMBER")) {
+
+            for (;;) {
+                String userInput = Utility.getStringInput();
+
+                if (userInput.equals("!"))
+                    break;
+
+                if (!Utility.isInteger(userInput)) {
+                    System.out.println("Not Allowed");
+                    continue;
+                }
+
+                elements.add(userInput);
+                frequencies.add(0);
+            }
+        }
+        else {
+            System.out.println("Add if clause for type " + type);
         }
 
         setElementArrayLength();
     }
 
-    public void setFreqArray() {
+    public void setFrequencies() {
 
         int visited = -1;
 
@@ -59,7 +83,7 @@ public class Array {
         }
     }
 
-    public void setDuplicatesArray() {
+    public void setDuplicates() {
 
         for (int i = 0; i < elementArrayLength; i++) {
             if (frequencies.get(i) > 1)
@@ -77,6 +101,19 @@ public class Array {
         this.elementArrayLength = elements.size();
     }
 
+    public int getLargest() {
+
+        int largest = -99999999;
+
+        for (String element: elements) {
+            int numElement = Integer.parseInt(element);
+            if (numElement > largest)
+                largest = numElement;
+        }
+
+        return largest;
+    }
+
     public void showFrequencies() {
 
         System.out.println("---------------------------------------");
@@ -90,12 +127,6 @@ public class Array {
         }
 
         System.out.println("----------------------------------------");
-    }
-
-    private void show(List<String> list) {
-
-        for (String item: list)
-            System.out.print(item + " ");
     }
 
     public void showElements() {
@@ -114,6 +145,12 @@ public class Array {
         System.out.println("Elements of the array in reverse order: ");
 
         show(elementsReversed);
+    }
+
+    private void show(List<String> list) {
+
+        for (String item: list)
+            System.out.print(item + " ");
     }
 
     public void reset() {

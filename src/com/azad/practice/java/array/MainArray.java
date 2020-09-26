@@ -15,8 +15,8 @@ public class MainArray {
 //
 //        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
 //
-//        array.setElementArray();
-//        array.setFreqArray();
+//        array.setElements("ALL");
+//        array.setFrequencies();
 //        array.showFrequencies();
 //
 //        array.reset();
@@ -31,10 +31,10 @@ public class MainArray {
 //        System.out.println("\n\nArray elements duplicates finding Problem\n============================\n");
 //
 //        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
-//        array.setElementArray();
+//        array.setElements("ALL");
 //
-//        array.setFreqArray();
-//        array.setDuplicatesArray();
+//        array.setFrequencies();
+//        array.setDuplicates();
 //        array.showDuplicates();
 //
 //        array.reset();
@@ -49,7 +49,7 @@ public class MainArray {
 //        System.out.println("\n\nArray Elements Printing\n============================\n");
 //
 //        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
-//        array.setElementArray();
+//        array.setElements("ALL");
 //
 //        array.showElements();
 //
@@ -62,17 +62,33 @@ public class MainArray {
         /*
         ARRAY 4: Print the elements of the array in reverse order
          */
-        System.out.println("\n\nArray Elements Printing\n============================\n");
+//        System.out.println("\n\nArray Elements Printing (reverse order)\n============================\n");
+//
+//        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
+//        array.setElements("ALL");
+//
+//        array.setElementsReversed();
+//        array.showElementsReversed();
+//
+//        array.reset();
+        /*
+        END ARRAY 4
+         */
 
-        System.out.println("Enter an array of elements(integers/floating point numbers/characters/strings)");
-        array.setElementArray();
 
-        array.setElementsReversed();
-        array.showElementsReversed();
+        /*
+        ARRAY 5: Print the largest element
+         */
+        System.out.println("\n\nArray Largest Element Printing\n============================\n");
+
+        System.out.println("Enter an array of elements(integers only)");
+        array.setElements("NUMBER");
+
+        System.out.println("Largest number is " + array.getLargest());
 
         array.reset();
         /*
-        END ARRAY 4
+        END ARRAY 5
          */
     }
 }
