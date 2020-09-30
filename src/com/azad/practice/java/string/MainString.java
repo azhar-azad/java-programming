@@ -43,13 +43,25 @@ public class MainString {
         /*
         STRING 3: Count the number of constants and vowel in string
          */
-        System.out.println("\n\nCount Total Number of Consonants and Vowels in a String\n============================\n");
-
-        stringDemo.init();
-
-        System.out.println("Total number of consonants: " + stringDemo.getConsonantCount() + " and vowels: " + stringDemo.getVowelCount());
+//        System.out.println("\n\nCount Total Number of Consonants and Vowels in a String\n============================\n");
+//
+//        stringDemo.init();
+//
+//        System.out.println("Total number of consonants: " + stringDemo.getConsonantCount() + " and vowels: " + stringDemo.getVowelCount());
         /*
         END STRING 3
+         */
+
+        /*
+        STRING 4: Check if two strings are anagram
+         */
+        System.out.println("\n\nCheck if two Strings are Anagram\n============================\n");
+
+        stringDemo.init2();
+
+        System.out.println(stringDemo.isAnagram() ? "Anagram" : "Not Anagram");
+        /*
+        END STRING 4
          */
     }
 }

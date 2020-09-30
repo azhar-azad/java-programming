@@ -2,16 +2,16 @@ package com.azad.practice.java.string.stringHelpers;
 
 import com.azad.practice.java.Utility;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class StringDemo {
 
     private String str;
+    private String str2;
 
     public StringDemo() {
-        str = new String();
-    }
-
-    public StringDemo(String str) {
-        this.str = str;
     }
 
     public String getStr() {
@@ -22,12 +22,25 @@ public class StringDemo {
         this.str = str;
     }
 
+    public String getStr2() {
+        return str2;
+    }
+
+    public void setStr2(String str2) {
+        this.str2 = str2;
+    }
+
     // ----
 
     public void init() {
         System.out.print("Enter a string: ");
-
         str = Utility.getStringInput();
+    }
+
+    public void init2() {
+        init();
+        System.out.print("Enter another string: ");
+        str2 = Utility.getStringInput();
     }
 
     public int getStrLength() {
@@ -62,6 +75,24 @@ public class StringDemo {
             constantsCount += isConsonant(ch) ? 1 : 0;
 
         return constantsCount;
+    }
+
+    public boolean isAnagram() {
+
+        return sort(str.toLowerCase()).equals(sort(str2.toLowerCase()));
+    }
+
+    // ------
+
+    private String sort(String str) {
+        List<Character> charStr = new ArrayList<>();
+
+        for (char ch: str.toCharArray())
+            charStr.add(ch);
+
+        Collections.sort(charStr);
+
+        return charStr.toString();
     }
 
     private boolean isNumber(char ch) {
