@@ -44,7 +44,7 @@ public class StringDemo {
         return spCharCount;
     }
 
-    public int getVowelsCount() {
+    public int getVowelCount() {
 
         int vowelsCount = 0;
 
@@ -54,12 +54,12 @@ public class StringDemo {
         return vowelsCount;
     }
 
-    public int getConstantsCount() {
+    public int getConsonantCount() {
 
         int constantsCount = 0;
 
         for (char ch: str.toLowerCase().toCharArray())
-            constantsCount += isConstant(ch) ? 1 : 0;
+            constantsCount += isConsonant(ch) ? 1 : 0;
 
         return constantsCount;
     }
@@ -72,7 +72,7 @@ public class StringDemo {
         return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
     }
 
-    private boolean isConstant(char ch) {
+    private boolean isConsonant(char ch) {
         return !isVowel(ch) && (ch >= 'a' && ch <= 'z');
     }
 
@@ -81,6 +81,6 @@ public class StringDemo {
     }
 
     private boolean isSpecialCharacter(char ch) {
-        return !(isSpace(ch) || isNumber(ch) || isVowel(ch) || isConstant(ch));
+        return !(isSpace(ch) || isNumber(ch) || isVowel(ch) || isConsonant(ch));
     }
 }

@@ -31,11 +31,11 @@ public class MainString {
         /*
         STRING 2: Count the total number of special characters in a string
          */
-        System.out.println("\n\nCount Total Number of Special Characters in a String\n============================\n");
-
-        stringDemo.init();
-
-        System.out.println("Total number of special characters in \'" + stringDemo.getStr() + "\' is " + stringDemo.getSpecialCharacterCount());
+//        System.out.println("\n\nCount Total Number of Special Characters in a String\n============================\n");
+//
+//        stringDemo.init();
+//
+//        System.out.println("Total number of special characters in \'" + stringDemo.getStr() + "\' is " + stringDemo.getSpecialCharacterCount());
         /*
         END STRING 2
          */
@@ -43,11 +43,11 @@ public class MainString {
         /*
         STRING 3: Count the number of constants and vowel in string
          */
-//        System.out.println("\n\nCount Total Number of Constants and Vowels in a String\n============================\n");
-//
-//        stringDemo.init();
-//
-//        System.out.println("Total number of constants: " + stringDemo.getConstantsCount() + " and vowels: " + stringDemo.getVowelsCount());
+        System.out.println("\n\nCount Total Number of Consonants and Vowels in a String\n============================\n");
+
+        stringDemo.init();
+
+        System.out.println("Total number of consonants: " + stringDemo.getConsonantCount() + " and vowels: " + stringDemo.getVowelCount());
         /*
         END STRING 3
          */
