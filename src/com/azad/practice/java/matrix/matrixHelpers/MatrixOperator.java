@@ -5,6 +5,8 @@ public class MatrixOperator {
     private Matrix matrixA;
     private Matrix matrixB;
     private Matrix matrixAdded;
+    private Matrix matrixSubtracted;
+    private Matrix matrixMultiplied;
 
     public MatrixOperator() {
         matrixA = new Matrix();
@@ -24,6 +26,8 @@ public class MatrixOperator {
         matrixB.matrixInitialization();
 
         matrixAdded = new Matrix(matrixA.getRow(), matrixB.getColumn());
+        matrixSubtracted = new Matrix(matrixA.getRow(), matrixB.getColumn());
+        matrixMultiplied = new Matrix(matrixA.getRow(), matrixB.getColumn());
     }
 
     public void add() {
@@ -42,8 +46,70 @@ public class MatrixOperator {
         matrixAdded.printMatrix();
     }
 
+    public void subtract() {
+
+        if (!isAddSubtractPossible()) {
+            System.out.println("Subtracting is not possible. Row/Column mismatch");
+            return;
+        }
+
+        for (int i = 0; i < matrixA.getRow(); i++) {
+            for (int j = 0; j < matrixB.getColumn(); j++) {
+                matrixSubtracted.matrix[i][j] = matrixA.matrix[i][j] - matrixB.matrix[i][j];
+            }
+        }
+
+        matrixSubtracted.printMatrix();
+    }
+
+    public void multiply() {
+
+        if (!isMultiplyPossible()) {
+            System.out.println("Multiplication is not possible. MatrixA column != MatrixB row");
+            return;
+        }
+
+//        int row1 = matrixA.matrix.length;
+//        int row2 = matrixB.matrix.length;
+//        int col2 = matrixB.matrix[0].length;
+
+        for (int i = 0; i < matrixMultiplied.matrix.length; i++) {
+            for (int j = 0; j < matrixMultiplied.matrix[i].length; j++) {
+                matrixMultiplied.matrix[i][j] = multiplyMatricesCell(matrixA, matrixB, i, j);
+            }
+        }
+
+        matrixMultiplied.printMatrix();
+    }
+
+    private int multiplyMatricesCell(Matrix matrixA, Matrix matrixB, int i, int j) {
+
+        int cell = 0;
+        for (int k = 0; i < matrixB.matrix.length; i++) {
+            cell += matrixA.matrix[i][k] * matrixB.matrix[k][j];
+        }
+        return cell;
+    }
+
     private boolean isAddSubtractPossible() {
 
         return (matrixA.getRow() == matrixB.getRow()) && (matrixA.getColumn() == matrixB.getColumn());
+    }
+
+    private boolean isMultiplyPossible() {
+        return matrixA.getColumn() == matrixB.getRow();
+    }
+
+    public void printMatrixA() {
+        matrixA.printMatrix();
+    }
+
+    public void printMatrixB() {
+        matrixB.printMatrix();
+    }
+
+    public void reset() {
+        this.matrixA.reset();
+        this.matrixB.reset();
     }
 }

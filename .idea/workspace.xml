@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="289b6e9d-e6b5-463e-b520-7cbff6630936" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/azad/practice/java/matrix/MainMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/MatrixOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programming/com/azad/practice/java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-programming/com/azad/practice/java/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/azad/practice/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/azad/practice/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/azad/practice/java/matrix/MainMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/azad/practice/java/matrix/MainMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/MatrixOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/MatrixOperator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <manually-removed-from-ignored>
@@ -25,8 +23,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="190">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,20 +32,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMatrix.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/matrix/MainMatrix.java">
+      <file leaf-file-name="MainArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="247">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixOperator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainMatrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/matrix/MainMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatrixOperator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/MatrixOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="304">
+              <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -55,16 +65,8 @@
       <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="13" />
-              <folding>
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1710">
+              <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -108,8 +110,8 @@
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/array/arrayHelpers/Array.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/Matrix.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/MatrixAdd.java" />
+        <option value="$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/Matrix.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/matrix/MainMatrix.java" />
         <option value="$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/MatrixOperator.java" />
       </list>
@@ -137,8 +139,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,6 +206,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +302,9 @@
       <workItem from="1600857718362" duration="2412000" />
       <workItem from="1601051413083" duration="1514000" />
       <workItem from="1601133957739" duration="22000" />
-      <workItem from="1601137722339" duration="15406000" />
+      <workItem from="1601137722339" duration="18573000" />
+      <workItem from="1601401464888" duration="3512000" />
+      <workItem from="1601485532731" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore added">
       <created>1599241623819</created>
@@ -463,26 +467,33 @@
       <option name="project" value="LOCAL" />
       <updated>1601147019978</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Matrix Add Problem done">
+      <created>1601157859358</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1601157859358</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58892000" />
+    <option name="totallyTimeSpent" value="65571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1863" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.32910052" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="right" auto_hide="true" x="591" y="80" width="794" height="945" id="Run" internal_type="SLIDING" order="9" weight="0.4261943" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" auto_hide="true" x="591" y="80" width="794" height="945" id="Run" internal_type="SLIDING" order="9" weight="0.4261943" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -492,14 +503,15 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32910052" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.32910052" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,11 +544,12 @@
     <MESSAGE value="Array Largest/Smallest Element Find updated" />
     <MESSAGE value="Array Find the nth smallest element done" />
     <MESSAGE value="Array Problems done. Closes #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array Problems done. Closes #2" />
+    <MESSAGE value="Matrix Add Problem done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matrix Add Problem done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -860,20 +873,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="25" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="190">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -899,30 +902,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1710">
+          <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/MatrixOperator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/array/MainArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="247">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/matrix/MainMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="209">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/azad/practice/java/matrix/matrixHelpers/MatrixOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
         </state>
       </provider>
     </entry>

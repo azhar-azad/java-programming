@@ -90,4 +90,10 @@ public class Matrix {
             System.out.println();
         }
     }
+
+    public void reset() {
+        this.row = 0;
+        this.column = 0;
+        this.matrix = null;
+    }
 }
