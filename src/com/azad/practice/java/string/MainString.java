@@ -74,13 +74,13 @@ public class MainString {
         /*
         STRING 5: Divide a string in N equal parts
          */
-        System.out.println("\n\nDivide a String in N equal parts\n============================\n");
-
-        stringDemo.init();
-        System.out.print("How many parts: ");
-        int part = Utility.getIntegerInput("Not Allowed");
-
-        stringDemo.divideStrEqual(part);
+//        System.out.println("\n\nDivide a String in N equal parts\n============================\n");
+//
+//        stringDemo.init();
+//        System.out.print("How many parts: ");
+//        int part = Utility.getIntegerInput("Not Allowed");
+//
+//        stringDemo.divideStrEqual(part);
         /*
         END STRING 5
          */
@@ -90,11 +90,11 @@ public class MainString {
         /*
         STRING N: Check if string is palindrome
          */
-//        System.out.println("\n\nCheck if a String is Palindrome or not\n============================\n");
-//        
-//        stringDemo.init();
-//        
-//        System.out.println(stringDemo.isPalindrome() ? "Palindrome" : "Not Palindrome");
+        System.out.println("\n\nCheck if a String is Palindrome or not\n============================\n");
+        
+        stringDemo.init();
+        
+        System.out.println(stringDemo.isPalindrome() ? "Palindrome" : "Not Palindrome");
         /*
         END STRING N
          */
