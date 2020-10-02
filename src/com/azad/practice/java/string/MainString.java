@@ -1,5 +1,7 @@
 package com.azad.practice.java.string;
 
+import com.azad.practice.java.Utility;
+import com.azad.practice.java.basic.basicHelpers.Palindrome;
 import com.azad.practice.java.string.stringHelpers.StringDemo;
 
 public class MainString {
@@ -16,6 +18,7 @@ public class MainString {
         END STRING N
          */
 
+
         /*
         STRING 1: Count the total number of characters in a string
          */
@@ -27,6 +30,7 @@ public class MainString {
         /*
         END STRING 1
          */
+
 
         /*
         STRING 2: Count the total number of special characters in a string
@@ -40,6 +44,7 @@ public class MainString {
         END STRING 2
          */
 
+
         /*
         STRING 3: Count the number of constants and vowel in string
          */
@@ -52,16 +57,46 @@ public class MainString {
         END STRING 3
          */
 
+
         /*
         STRING 4: Check if two strings are anagram
          */
-        System.out.println("\n\nCheck if two Strings are Anagram\n============================\n");
-
-        stringDemo.init2();
-
-        System.out.println(stringDemo.isAnagram() ? "Anagram" : "Not Anagram");
+//        System.out.println("\n\nCheck if two Strings are Anagram\n============================\n");
+//
+//        stringDemo.init2();
+//
+//        System.out.println(stringDemo.isAnagram() ? "Anagram" : "Not Anagram");
         /*
         END STRING 4
+         */
+
+
+        /*
+        STRING 5: Divide a string in N equal parts
+         */
+        System.out.println("\n\nDivide a String in N equal parts\n============================\n");
+
+        stringDemo.init();
+        System.out.print("How many parts: ");
+        int part = Utility.getIntegerInput("Not Allowed");
+
+        stringDemo.divideStrEqual(part);
+        /*
+        END STRING 5
+         */
+        
+        
+        
+        /*
+        STRING N: Check if string is palindrome
+         */
+//        System.out.println("\n\nCheck if a String is Palindrome or not\n============================\n");
+//        
+//        stringDemo.init();
+//        
+//        System.out.println(stringDemo.isPalindrome() ? "Palindrome" : "Not Palindrome");
+        /*
+        END STRING N
          */
     }
 }

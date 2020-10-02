@@ -1,6 +1,7 @@
 package com.azad.practice.java.string.stringHelpers;
 
 import com.azad.practice.java.Utility;
+import com.azad.practice.java.basic.basicHelpers.Palindrome;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -79,10 +80,40 @@ public class StringDemo {
 
     public boolean isAnagram() {
 
-        return sort(str.toLowerCase()).equals(sort(str2.toLowerCase()));
+        return str.length() == str2.length() && sort(str.toLowerCase()).equals(sort(str2.toLowerCase()));
+    }
+
+    public void divideStrEqual(int noOfPart) {
+    	
+    	String[] strParts = new String[noOfPart];
+
+        if (getStrLength() % noOfPart != 0) {
+            System.out.println("Equal division not possible");
+            return;
+        }
+        
+        int eachPartLength = str.length() / noOfPart;
+        for (int i = 0, j = 0; i < str.length(); i+= eachPartLength, j++) {
+        	
+        	strParts[j] = str.substring(i, i + eachPartLength);
+        }
+        
+        System.out.print("String parts are: ");
+        for (String strPart: strParts) {
+        	System.out.print("\'" + strPart + "\' ");
+        }
+    }
+    
+    public boolean isPalindrome() {
+    	return Palindrome.isPalindrome(str);
     }
 
     // ------
+
+    private void printStrArr(String[] strArr) {
+        for (String str: strArr)
+            System.out.print(str + " ");
+    }
 
     private String sort(String str) {
         List<Character> charStr = new ArrayList<>();
