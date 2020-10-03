@@ -63,7 +63,7 @@ public class StringDemo {
 
         int vowelsCount = 0;
 
-        for (char ch: str.toLowerCase().toCharArray())
+        for (char ch: str.toCharArray())
             vowelsCount += isVowel(ch) ? 1 : 0;
 
         return vowelsCount;
@@ -73,7 +73,7 @@ public class StringDemo {
 
         int constantsCount = 0;
 
-        for (char ch: str.toLowerCase().toCharArray())
+        for (char ch: str.toCharArray())
             constantsCount += isConsonant(ch) ? 1 : 0;
 
         return constantsCount;
@@ -139,6 +139,22 @@ public class StringDemo {
     	return strWithoutSpaces.toString();
     }
     
+    public String getToggleCases() {
+    	
+    	StringBuilder toggleStr = new StringBuilder();
+    	
+    	for (char ch: str.toCharArray()) {
+    		if (isSpecialCharacter(ch) || isNumber(ch) || isSpace(ch)) {
+    			toggleStr.append(ch);
+    		}
+    		else {
+    			toggleStr.append(Character.isLowerCase(ch) ? Character.toUpperCase(ch) : Character.toLowerCase(ch));
+    		}
+    	}
+    	
+    	return toggleStr.toString();
+    }
+    
     public boolean isPalindrome() {
     	return Palindrome.isPalindrome(str);
     }
@@ -167,19 +183,21 @@ public class StringDemo {
     }
 
     private boolean isNumber(char ch) {
-        return ch >= 48 && ch <= 57;
+        return ch >= '0' && ch <= '9';
     }
 
     private boolean isVowel(char ch) {
+    	ch = Character.toLowerCase(ch);
         return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
     }
 
     private boolean isConsonant(char ch) {
+    	ch = Character.toLowerCase(ch);
         return !isVowel(ch) && (ch >= 'a' && ch <= 'z');
     }
 
     private boolean isSpace(char ch) {
-        return ch == 32;
+        return ch == ' ';
     }
 
     private boolean isSpecialCharacter(char ch) {

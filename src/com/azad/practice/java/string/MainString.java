@@ -93,14 +93,36 @@ public class MainString {
         /*
         STRING 7: Remove white-spaces from string
          */
-        System.out.println("\n\nRemove White-Spaces from String\n============================\n");
-        
-        stringDemo.init();
-        
-        System.out.println("String without white-spaces: " + stringDemo.getStrWithoutSpaces());
+//        System.out.println("\n\nRemove White-Spaces from String\n============================\n");
+//        
+//        stringDemo.init();
+//        
+//        System.out.println("String without white-spaces: " + stringDemo.getStrWithoutSpaces());
         /*
         END STRING 7
          */
+        
+        
+        /*
+        STRING 8: Toggle upper-lower cases
+         */
+        System.out.println("\n\nToggle Upper-Lower cases\n============================\n");
+        
+        stringDemo.init();
+        
+        System.out.println("String after toggling cases: " + stringDemo.getToggleCases());
+        /*
+        END STRING 8
+         */
+        
+        /*
+        STRING N: 
+         */
+        
+        /*
+        END STRING N
+         */
+        
         
         
         /*
