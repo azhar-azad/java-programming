@@ -119,36 +119,47 @@ public class MainString {
         /*
         STRING 9: Replace spaces with character
          */
-        System.out.println("\n\nReplace Spaces with any Character\n============================\n");
-        
-        stringDemo.init();
-        
-        System.out.print("Enter the character to replace: ");
-        char ch = Utility.getCharInput("Not Allowed");
-        
-        System.out.println("String after spaces replaced: " + stringDemo.getSpaceReplaced(ch));
+//        System.out.println("\n\nReplace Spaces with any Character\n============================\n");
+//        
+//        stringDemo.init();
+//        
+//        System.out.print("Enter the character to replace: ");
+//        char ch = Utility.getCharInput("Not Allowed");
+//        
+//        System.out.println("String after spaces replaced: " + stringDemo.getSpaceReplaced(ch));
         /*
         END STRING 9
-         */
-        
-        /*
-        STRING N: 
-         */
-        
-        /*
-        END STRING N
-         */
-        
+         */        
         
         
         /*
-        STRING N: Check if string is palindrome
+        STRING 10: Check if string is palindrome
          */
 //        System.out.println("\n\nCheck if a String is Palindrome or not\n============================\n");
 //        
 //        stringDemo.init();
 //        
 //        System.out.println(stringDemo.isPalindrome() ? "Palindrome" : "Not Palindrome");
+        /*
+        END STRING 10
+         */
+        
+        /*
+        STRING 11: Check whether one string is a roation of other 
+         */
+        System.out.println("\n\nCheck whether one String is a Rotation of other\n============================\n");
+        
+        stringDemo.init2();
+        
+        System.out.println(stringDemo.isRotation() ? "Rotation" : "Not Rotation");
+        /*
+        END STRING 11
+         */
+        
+        /*
+        STRING N: 
+         */
+        
         /*
         END STRING N
          */

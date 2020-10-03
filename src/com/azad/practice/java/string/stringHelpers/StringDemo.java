@@ -175,6 +175,10 @@ public class StringDemo {
     public boolean isPalindrome() {
     	return Palindrome.isPalindrome(str);
     }
+    
+    public boolean isRotation() {
+    	return (str + str).contains(str2);
+    }
 
     // ------
 
