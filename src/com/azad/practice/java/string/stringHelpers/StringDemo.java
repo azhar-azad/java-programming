@@ -123,6 +123,22 @@ public class StringDemo {
     	printSubstrings(getSubsets());
     }
     
+    public String getStrWithoutSpaces() {
+    	
+    	StringBuilder strWithoutSpaces = new StringBuilder();
+    	
+    	for (char ch: str.toCharArray()) {
+    		
+    		if (ch == 32) {
+    			continue;
+    		}
+    		
+    		strWithoutSpaces.append(ch);
+    	}
+    	
+    	return strWithoutSpaces.toString();
+    }
+    
     public boolean isPalindrome() {
     	return Palindrome.isPalindrome(str);
     }

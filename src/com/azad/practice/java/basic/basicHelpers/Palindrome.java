@@ -4,6 +4,13 @@ public class Palindrome {
 
     public static boolean isPalindrome(String str) {
     	
+    	String strWithoutSpaces = removeWhiteSpaces(str);
+
+        return strWithoutSpaces.equalsIgnoreCase(new StringBuilder(strWithoutSpaces).reverse().toString());
+    }
+    
+    private static String removeWhiteSpaces(String str) {
+    	
     	StringBuilder strWithoutSpaces = new StringBuilder();
     	
     	for (char ch: str.toCharArray()) {
@@ -14,7 +21,7 @@ public class Palindrome {
     		
     		strWithoutSpaces.append(ch);
     	}
-
-        return strWithoutSpaces.toString().equalsIgnoreCase(strWithoutSpaces.reverse().toString());
+    	
+    	return strWithoutSpaces.toString();
     }
 }

@@ -11,15 +11,6 @@ public class MainString {
         StringDemo stringDemo = new StringDemo();
 
         /*
-        STRING N:
-         */
-
-        /*
-        END STRING N
-         */
-
-
-        /*
         STRING 1: Count the total number of characters in a string
          */
 //        System.out.println("\n\nString Length Calculate\n============================\n");
@@ -89,14 +80,28 @@ public class MainString {
         /*
         STRING 6: Find all subsets of a string
          */
-        System.out.println("\n\nFind all Subsets of a String\n============================\n");
-
-        stringDemo.init();
-        
-        stringDemo.printSubsets();
+//        System.out.println("\n\nFind all Subsets of a String\n============================\n");
+//
+//        stringDemo.init();
+//        
+//        stringDemo.printSubsets();
         /*
         END STRING 6
          */
+        
+
+        /*
+        STRING 7: Remove white-spaces from string
+         */
+        System.out.println("\n\nRemove White-Spaces from String\n============================\n");
+        
+        stringDemo.init();
+        
+        System.out.println("String without white-spaces: " + stringDemo.getStrWithoutSpaces());
+        /*
+        END STRING 7
+         */
+        
         
         /*
         STRING N: Check if string is palindrome
