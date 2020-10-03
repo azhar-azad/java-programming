@@ -129,7 +129,7 @@ public class StringDemo {
     	
     	for (char ch: str.toCharArray()) {
     		
-    		if (ch == 32) {
+    		if (ch == ' ') {
     			continue;
     		}
     		
@@ -153,6 +153,23 @@ public class StringDemo {
     	}
     	
     	return toggleStr.toString();
+    }
+    
+    public String getSpaceReplaced(char charToReplace) {
+    	
+    	StringBuilder replacedStr = new StringBuilder();
+    	
+    	for (char ch: str.toCharArray()) {
+    		
+    		if (ch == ' ') {
+    			replacedStr.append(charToReplace);
+    			continue;
+    		}
+    		
+    		replacedStr.append(ch);
+    	}
+    	
+    	return replacedStr.toString();
     }
     
     public boolean isPalindrome() {

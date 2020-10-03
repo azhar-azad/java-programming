@@ -106,13 +106,29 @@ public class MainString {
         /*
         STRING 8: Toggle upper-lower cases
          */
-        System.out.println("\n\nToggle Upper-Lower cases\n============================\n");
+//        System.out.println("\n\nToggle Upper-Lower cases\n============================\n");
+//        
+//        stringDemo.init();
+//        
+//        System.out.println("String after toggling cases: " + stringDemo.getToggleCases());
+        /*
+        END STRING 8
+         */
+       
+        
+        /*
+        STRING 9: Replace spaces with character
+         */
+        System.out.println("\n\nReplace Spaces with any Character\n============================\n");
         
         stringDemo.init();
         
-        System.out.println("String after toggling cases: " + stringDemo.getToggleCases());
+        System.out.print("Enter the character to replace: ");
+        char ch = Utility.getCharInput("Not Allowed");
+        
+        System.out.println("String after spaces replaced: " + stringDemo.getSpaceReplaced(ch));
         /*
-        END STRING 8
+        END STRING 9
          */
         
         /*

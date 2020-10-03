@@ -9,31 +9,39 @@ public class Utility {
     // Safe-convert user input to integer value
     public static int getIntegerInput(String msg) {
         String str = scanner.nextLine();
-        for (;;) {
-            if (isInteger(str))
-                return Integer.parseInt(str);
-            else {
-                System.out.println(msg);
-                str = scanner.nextLine();
-            }
-        }
+        
+        if (isInteger(str))
+            return Integer.parseInt(str);
+        
+        System.out.println(msg);
+        return getIntegerInput(msg);
+       
     }
 
     // Safe-convert user input to double value
     public static double getDoubleInput(String msg) {
         String str = scanner.nextLine();
-        for (;;) {
-            if (isDouble(str))
-                return Double.parseDouble(str);
-            else {
-                System.out.println(msg);
-                str = scanner.nextLine();
-            }
-        }
+        
+        if (isDouble(str))
+            return Double.parseDouble(str);
+        
+        System.out.println(msg);
+        return getDoubleInput(msg);
     }
 
     public static String getStringInput() {
         return scanner.nextLine();
+    }
+    
+    public static char getCharInput(String msg) {
+    	String input = getStringInput();
+    	
+    	if (input.length() == 1) {
+    		return input.charAt(0);
+    	}
+    	
+    	System.out.println(msg);
+    	return getCharInput(msg);
     }
 
     // Check if user input is positive-integer or not
