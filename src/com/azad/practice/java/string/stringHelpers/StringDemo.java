@@ -1,6 +1,7 @@
 package com.azad.practice.java.string.stringHelpers;
 
 import com.azad.practice.java.Utility;
+import com.azad.practice.java.basic.basicHelpers.Factorial;
 import com.azad.practice.java.basic.basicHelpers.Palindrome;
 
 import java.util.ArrayList;
@@ -104,15 +105,38 @@ public class StringDemo {
         }
     }
     
+    public List<String> getSubsets() {
+    	
+    	List<String> strSubsets = new ArrayList<>();
+    	
+    	for (int i = 0; i < getStrLength(); i++) {
+    		for (int j = i + 1; j <= getStrLength(); j++) {
+				strSubsets.add(str.substring(i, j));
+			}
+    	}
+    	
+    	return strSubsets;
+    }
+    
+    public void printSubsets() {
+    	System.out.println("All subsets of " + str + " is: ");
+    	printSubstrings(getSubsets());
+    }
+    
     public boolean isPalindrome() {
     	return Palindrome.isPalindrome(str);
     }
 
     // ------
 
-    private void printStrArr(String[] strArr) {
-        for (String str: strArr)
-            System.out.print(str + " ");
+//    private void printSubstrings(String[] strArr) {
+//        for (String str: strArr)
+//            System.out.print(str + " ");
+//    }
+    
+    private void printSubstrings(List<String> strList) {
+    	for (String str: strList)
+            System.out.print(str + "  ");
     }
 
     private String sort(String str) {

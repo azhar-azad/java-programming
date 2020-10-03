@@ -86,15 +86,26 @@ public class MainString {
          */
         
         
+        /*
+        STRING 6: Find all subsets of a string
+         */
+        System.out.println("\n\nFind all Subsets of a String\n============================\n");
+
+        stringDemo.init();
+        
+        stringDemo.printSubsets();
+        /*
+        END STRING 6
+         */
         
         /*
         STRING N: Check if string is palindrome
          */
-        System.out.println("\n\nCheck if a String is Palindrome or not\n============================\n");
-        
-        stringDemo.init();
-        
-        System.out.println(stringDemo.isPalindrome() ? "Palindrome" : "Not Palindrome");
+//        System.out.println("\n\nCheck if a String is Palindrome or not\n============================\n");
+//        
+//        stringDemo.init();
+//        
+//        System.out.println(stringDemo.isPalindrome() ? "Palindrome" : "Not Palindrome");
         /*
         END STRING N
          */
