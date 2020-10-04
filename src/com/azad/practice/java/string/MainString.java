@@ -175,13 +175,28 @@ public class MainString {
         /*
         STRING 13: Reverse a string
          */
-        System.out.println("\n\nReverse a String\n============================\n");
-        
-        stringDemo.init();
-        
-        System.out.println("Reverse of " + stringDemo.getStr() + " is " + stringDemo.reverseStr());
+//        System.out.println("\n\nReverse a String\n============================\n");
+//        
+//        stringDemo.init();
+//        
+//        System.out.println("Reverse of " + stringDemo.getStr() + " is " + stringDemo.reverseStr());
         /*
         END STRING 13
+         */
+        
+        /*
+        STRING 14: Find duplicate characters in a string 
+         */
+        System.out.println("\n\nFind Duplicate Characters\n============================\n");
+        
+        stringDemo.init();
+        stringDemo.setStrFrequency();
+        stringDemo.setStrDuplicates();
+        
+        System.out.println("Duplicate Characters: ");
+        stringDemo.printDuplicates();
+        /*
+        END STRING 14
          */
         
         /*

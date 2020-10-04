@@ -13,6 +13,7 @@ public class StringDemo {
     private String str;
     private String str2;
     private int[] strFrequency;
+    private char[] strDuplicates;
 
     public StringDemo() {
     }
@@ -65,6 +66,23 @@ public class StringDemo {
 //    		}
 //    		System.out.print(str.charAt(i) + ": " + strFrequency[i] + "\n");
 //    	}
+    }
+    
+    public void setStrDuplicates() {
+    	
+    	List<Character> duplicates = new ArrayList<>();
+    	
+    	for (int i = 0; i < strFrequency.length; i++) {
+    		if (strFrequency[i] > 1) {
+    			duplicates.add(str.charAt(i));
+    		}
+    	}
+    	
+    	strDuplicates = new char[duplicates.size()];
+    	
+    	for (int i = 0; i < duplicates.size(); i++) {
+    		strDuplicates[i] = duplicates.get(i);
+    	}
     }
 
     // ----
@@ -270,6 +288,13 @@ public class StringDemo {
     public String reverseStr() {
     	
     	return new StringBuilder(str).reverse().toString();
+    }
+    
+    public void printDuplicates() {
+    	
+    	for (char ch: strDuplicates) {
+    		System.out.print(ch + " ");
+    	}
     }
 
     // ------
