@@ -187,16 +187,33 @@ public class MainString {
         /*
         STRING 14: Find duplicate characters in a string 
          */
-        System.out.println("\n\nFind Duplicate Characters\n============================\n");
-        
-        stringDemo.init();
-        stringDemo.setStrFrequency();
-        stringDemo.setStrDuplicates();
-        
-        System.out.println("Duplicate Characters: ");
-        stringDemo.printDuplicates();
+//        System.out.println("\n\nFind Duplicate Characters\n============================\n");
+//        
+//        stringDemo.init();
+//        stringDemo.setStrCharFrequency();
+//        stringDemo.setStrCharDuplicates();
+//        
+//        System.out.println("Duplicate Characters: ");
+//        stringDemo.printDuplicateChars();
         /*
         END STRING 14
+         */
+        
+        
+        /*
+        STRING 15: Find duplicate words in a string 
+         */
+        System.out.println("\n\nFind Duplicate Words\n============================\n");
+        
+        stringDemo.init();
+        stringDemo.setStrWordArray();
+        stringDemo.setStrWordFrequency();
+        stringDemo.setStrWordDuplicates();
+        
+        System.out.println("Duplicate Words: ");
+        stringDemo.printDuplicateWords();
+        /*
+        END STRING 15
          */
         
         /*

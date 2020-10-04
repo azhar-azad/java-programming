@@ -12,8 +12,11 @@ public class StringDemo {
 
     private String str;
     private String str2;
-    private int[] strFrequency;
-    private char[] strDuplicates;
+    private int[] strCharFrequency;
+    private char[] strCharDuplicates;
+    private String[] strWordArray;
+    private int[] strWordFrequency;
+    private String[] strWordDuplicates;
 
     public StringDemo() {
     }
@@ -34,18 +37,18 @@ public class StringDemo {
         this.str2 = str2;
     }
     
-    public void setStrFrequency() {
+    public void setStrCharFrequency() {
     	
-    	for (int i = 0; i < strFrequency.length; i++)
-    		strFrequency[i] = -1;
+    	for (int i = 0; i < strCharFrequency.length; i++)
+    		strCharFrequency[i] = -1;
     	
-    	for (int i = 0; i < strFrequency.length; i++) {
+    	for (int i = 0; i < strCharFrequency.length; i++) {
     		if (str.charAt(i) == ' ') {
 				continue;
 			}
     		
     		int freq = 1;
-    		if (strFrequency[i] == 0) {
+    		if (strCharFrequency[i] == 0) {
 				freq = 0;
 				continue;
 			}
@@ -54,10 +57,10 @@ public class StringDemo {
     			
     			if (str.charAt(i) == str.charAt(j)) {
     				freq++;
-    				strFrequency[j] = 0;
+    				strCharFrequency[j] = 0;
     			}
     		}
-    		strFrequency[i] = freq;
+    		strCharFrequency[i] = freq;
     	}
     	
 //    	for (int i = 0; i < strFrequency.length; i++) {
@@ -68,21 +71,92 @@ public class StringDemo {
 //    	}
     }
     
-    public void setStrDuplicates() {
+    public void setStrCharDuplicates() {
     	
     	List<Character> duplicates = new ArrayList<>();
     	
-    	for (int i = 0; i < strFrequency.length; i++) {
-    		if (strFrequency[i] > 1) {
+    	for (int i = 0; i < strCharFrequency.length; i++) {
+    		if (strCharFrequency[i] > 1) {
     			duplicates.add(str.charAt(i));
     		}
     	}
     	
-    	strDuplicates = new char[duplicates.size()];
+    	strCharDuplicates = new char[duplicates.size()];
     	
     	for (int i = 0; i < duplicates.size(); i++) {
-    		strDuplicates[i] = duplicates.get(i);
+    		strCharDuplicates[i] = duplicates.get(i);
     	}
+    }
+    
+    public void setStrWordArray() {
+    	
+    	StringBuilder strToBuild = new StringBuilder();
+    	for (int i = 0, j = 0; i < str.length(); i++) {
+    		char charToAdd = str.charAt(i);
+    		if (charToAdd == ' ') {
+				strWordArray[j] = strToBuild.toString();
+				j++;
+				strToBuild = new StringBuilder();
+				continue;
+			}
+    		strToBuild.append(charToAdd);
+    	}
+    	
+    	if (str.charAt(str.length() - 1) != ' ') 
+    		strWordArray[strWordArray.length - 1] = strToBuild.toString();
+    }
+    
+    public void setStrWordFrequency() {
+    	
+    	for (int i = 0; i < strWordFrequency.length; i++)
+    		strWordFrequency[i] = -1;
+    	
+    	for (int i = 0; i < strWordFrequency.length; i++) {
+    		
+    		int freq = 1;
+    		if (strWordFrequency[i] == 0) {
+				freq = 0;
+				continue;
+			}
+    		
+    		for (int j = i + 1; j < strWordArray.length; j++) {
+    			
+    			if (strWordArray[i].equalsIgnoreCase(strWordArray[j])) {
+    				freq++;
+    				strWordFrequency[j] = 0;
+    			}
+    		}
+    		strWordFrequency[i] = freq;
+    	}
+    	
+//    	for (int i = 0; i < strWordFrequency.length; i++) {
+//    		if (strWordFrequency[i] <= 0) {
+//    			continue;
+//    		}
+//    		System.out.print(wordArray[i] + ": " + strWordFrequency[i] + "\n");
+//    	}
+    }
+    
+    public void setStrWordDuplicates() {
+    	
+    	List<String> duplicates = new ArrayList<>();
+    	
+    	for (int i = 0; i < strWordFrequency.length; i++) {
+    		if (strWordFrequency[i] > 1) {
+    			duplicates.add(strWordArray[i]);
+    		}
+    	}
+    	
+    	strWordDuplicates = new String[duplicates.size()];
+    	
+    	for (int i = 0; i < duplicates.size(); i++) {
+    		strWordDuplicates[i] = duplicates.get(i);
+    	}
+    }
+    
+    public String[] getWordArray() {
+    	
+    	return strWordArray;
     }
 
     // ----
@@ -90,7 +164,9 @@ public class StringDemo {
     public void init() {
         System.out.print("Enter a string: ");
         str = Utility.getStringInput();
-        strFrequency = new int[str.length()];
+        strCharFrequency = new int[getStrLength()];
+        strWordFrequency = new int[getWordCount()];
+        strWordArray = new String[getWordCount()];
     }
 
     public void init2() {
@@ -240,12 +316,12 @@ public class StringDemo {
     	char maxFreqChar;
     	int maxFreq = -9;
     	
-    	for (int i = 0; i < strFrequency.length; i++) {
-    		if (strFrequency[i] < maxFreq) {
+    	for (int i = 0; i < strCharFrequency.length; i++) {
+    		if (strCharFrequency[i] < maxFreq) {
 				continue;
 			}
-    		else if (strFrequency[i] > maxFreq) {
-    			maxFreq = strFrequency[i];
+    		else if (strCharFrequency[i] > maxFreq) {
+    			maxFreq = strCharFrequency[i];
     			maxFreqChar = str.charAt(i);
     			maxFreqChars.clear();
     			maxFreqChars.add(maxFreqChar + " ");
@@ -265,13 +341,13 @@ public class StringDemo {
     	char minFreqChar;
     	int minFreq = 100;
     	
-    	for (int i = 0; i < strFrequency.length; i++) {
+    	for (int i = 0; i < strCharFrequency.length; i++) {
     		
-    		if (strFrequency[i] > minFreq || strFrequency[i] <= 0) {
+    		if (strCharFrequency[i] > minFreq || strCharFrequency[i] <= 0) {
 				continue;
 			}
-    		else if (strFrequency[i] < minFreq) {
-    			minFreq = strFrequency[i];
+    		else if (strCharFrequency[i] < minFreq) {
+    			minFreq = strCharFrequency[i];
     			minFreqChar = str.charAt(i);
     			minFreqChars.clear();
     			minFreqChars.add(minFreqChar + " ");
@@ -290,14 +366,34 @@ public class StringDemo {
     	return new StringBuilder(str).reverse().toString();
     }
     
-    public void printDuplicates() {
+    public void printDuplicateChars() {
     	
-    	for (char ch: strDuplicates) {
+    	for (char ch: strCharDuplicates) {
     		System.out.print(ch + " ");
+    	}
+    }
+    
+    public void printDuplicateWords() {
+    	
+    	for (String str: strWordDuplicates) {
+    		System.out.print(str + " ");
     	}
     }
 
     // ------
+    
+    private int getCountOf(char ch) {
+    	int charCount = 0;
+    	for (char c: str.toCharArray()) 
+    		if (c == ch) 
+    			charCount++;
+    	return charCount;
+    }
+    
+    private int getWordCount() {
+    	
+    	return getCountOf(' ') + 1;
+    }
     
     private void printSubstrings(List<String> strList) {
     	for (String str: strList)
