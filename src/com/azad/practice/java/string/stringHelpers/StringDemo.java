@@ -266,6 +266,11 @@ public class StringDemo {
     	
     	printSubstrings(minFreqChars);
     }
+    
+    public String reverseStr() {
+    	
+    	return new StringBuilder(str).reverse().toString();
+    }
 
     // ------
     
