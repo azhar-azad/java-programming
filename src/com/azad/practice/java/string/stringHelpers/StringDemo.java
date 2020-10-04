@@ -62,13 +62,6 @@ public class StringDemo {
     		}
     		strCharFrequency[i] = freq;
     	}
-    	
-//    	for (int i = 0; i < strFrequency.length; i++) {
-//    		if (strFrequency[i] <= 0) {
-//    			continue;
-//    		}
-//    		System.out.print(str.charAt(i) + ": " + strFrequency[i] + "\n");
-//    	}
     }
     
     public void setStrCharDuplicates() {
@@ -377,6 +370,16 @@ public class StringDemo {
     	
     	for (String str: strWordDuplicates) {
     		System.out.print(str + " ");
+    	}
+    }
+    
+    public void printCharFrequencies() {
+    	
+    	for (int i = 0; i < strCharFrequency.length; i++) {
+    		if (strCharFrequency[i] <= 0) {
+    			continue;
+    		}
+    		System.out.print(str.charAt(i) + ": " + strCharFrequency[i] + "\n");
     	}
     }
 

@@ -203,17 +203,31 @@ public class MainString {
         /*
         STRING 15: Find duplicate words in a string 
          */
-        System.out.println("\n\nFind Duplicate Words\n============================\n");
-        
-        stringDemo.init();
-        stringDemo.setStrWordArray();
-        stringDemo.setStrWordFrequency();
-        stringDemo.setStrWordDuplicates();
-        
-        System.out.println("Duplicate Words: ");
-        stringDemo.printDuplicateWords();
+//        System.out.println("\n\nFind Duplicate Words\n============================\n");
+//        
+//        stringDemo.init();
+//        stringDemo.setStrWordArray();
+//        stringDemo.setStrWordFrequency();
+//        stringDemo.setStrWordDuplicates();
+//        
+//        System.out.println("Duplicate Words: ");
+//        stringDemo.printDuplicateWords();
         /*
         END STRING 15
+         */
+        
+        /*
+        STRING 16: Print the frequency of characters
+         */
+        System.out.println("\n\nPrint Frequency of Characters\n============================\n");
+        
+        stringDemo.init();
+        stringDemo.setStrCharFrequency();
+        
+        System.out.println("Frequency of characters: ");
+        stringDemo.printCharFrequencies();
+        /*
+        END STRING 16
          */
         
         /*
