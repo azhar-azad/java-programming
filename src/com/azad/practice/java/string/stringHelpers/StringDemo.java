@@ -12,6 +12,7 @@ public class StringDemo {
 
     private String str;
     private String str2;
+    private int[] strFrequency;
 
     public StringDemo() {
     }
@@ -31,12 +32,47 @@ public class StringDemo {
     public void setStr2(String str2) {
         this.str2 = str2;
     }
+    
+    public void setStrFrequency() {
+    	
+    	for (int i = 0; i < strFrequency.length; i++)
+    		strFrequency[i] = -1;
+    	
+    	for (int i = 0; i < strFrequency.length; i++) {
+    		if (str.charAt(i) == ' ') {
+				continue;
+			}
+    		
+    		int freq = 1;
+    		if (strFrequency[i] == 0) {
+				freq = 0;
+				continue;
+			}
+    		
+    		for (int j = i + 1; j < str.length(); j++) {
+    			
+    			if (str.charAt(i) == str.charAt(j)) {
+    				freq++;
+    				strFrequency[j] = 0;
+    			}
+    		}
+    		strFrequency[i] = freq;
+    	}
+    	
+//    	for (int i = 0; i < strFrequency.length; i++) {
+//    		if (strFrequency[i] <= 0) {
+//    			continue;
+//    		}
+//    		System.out.print(str.charAt(i) + ": " + strFrequency[i] + "\n");
+//    	}
+    }
 
     // ----
 
     public void init() {
         System.out.print("Enter a string: ");
         str = Utility.getStringInput();
+        strFrequency = new int[str.length()];
     }
 
     public void init2() {
@@ -179,13 +215,59 @@ public class StringDemo {
     public boolean isRotation() {
     	return (str + str).contains(str2);
     }
+    
+    public void getMaxFreqCharacter() {
+    	
+    	List<String> maxFreqChars = new ArrayList<>();
+    	char maxFreqChar;
+    	int maxFreq = -9;
+    	
+    	for (int i = 0; i < strFrequency.length; i++) {
+    		if (strFrequency[i] < maxFreq) {
+				continue;
+			}
+    		else if (strFrequency[i] > maxFreq) {
+    			maxFreq = strFrequency[i];
+    			maxFreqChar = str.charAt(i);
+    			maxFreqChars.clear();
+    			maxFreqChars.add(maxFreqChar + " ");
+    		}
+    		else {
+    			maxFreqChar = str.charAt(i);
+    			maxFreqChars.add(maxFreqChar + " ");
+    		}
+    	}
+    	
+    	printSubstrings(maxFreqChars);
+    }
+    
+    public void getMinFreqCharacter() {
+    	
+    	List<String> minFreqChars = new ArrayList<>();
+    	char minFreqChar;
+    	int minFreq = 100;
+    	
+    	for (int i = 0; i < strFrequency.length; i++) {
+    		
+    		if (strFrequency[i] > minFreq || strFrequency[i] <= 0) {
+				continue;
+			}
+    		else if (strFrequency[i] < minFreq) {
+    			minFreq = strFrequency[i];
+    			minFreqChar = str.charAt(i);
+    			minFreqChars.clear();
+    			minFreqChars.add(minFreqChar + " ");
+    		}
+    		else {
+    			minFreqChar = str.charAt(i);
+    			minFreqChars.add(minFreqChar + " ");
+    		}
+    	}
+    	
+    	printSubstrings(minFreqChars);
+    }
 
     // ------
-
-//    private void printSubstrings(String[] strArr) {
-//        for (String str: strArr)
-//            System.out.print(str + " ");
-//    }
     
     private void printSubstrings(List<String> strList) {
     	for (String str: strList)

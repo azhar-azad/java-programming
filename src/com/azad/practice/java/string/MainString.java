@@ -147,13 +147,29 @@ public class MainString {
         /*
         STRING 11: Check whether one string is a roation of other 
          */
-        System.out.println("\n\nCheck whether one String is a Rotation of other\n============================\n");
-        
-        stringDemo.init2();
-        
-        System.out.println(stringDemo.isRotation() ? "Rotation" : "Not Rotation");
+//        System.out.println("\n\nCheck whether one String is a Rotation of other\n============================\n");
+//        
+//        stringDemo.init2();
+//        
+//        System.out.println(stringDemo.isRotation() ? "Rotation" : "Not Rotation");
         /*
         END STRING 11
+         */
+        
+        /*
+        STRING 12: Get the characters of maximum and minimum frequency
+         */
+        System.out.println("\n\nGet the Characters of Maximum and Minimum Frequency\n============================\n");
+        
+        stringDemo.init();
+        stringDemo.setStrFrequency();
+        
+        System.out.println("\nCharacter(s) with maximum frequency: ");
+        stringDemo.getMaxFreqCharacter();
+        System.out.println("\nCharacter(s) with minimum frequency: ");
+        stringDemo.getMinFreqCharacter();
+        /*
+        END STRING 12
          */
         
         /*
