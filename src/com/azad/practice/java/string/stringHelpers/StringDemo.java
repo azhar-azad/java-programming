@@ -25,16 +25,8 @@ public class StringDemo {
         return str;
     }
 
-    public void setStr(String str) {
-        this.str = str;
-    }
-
     public String getStr2() {
         return str2;
-    }
-
-    public void setStr2(String str2) {
-        this.str2 = str2;
     }
     
     public void setStrCharFrequency() {
@@ -121,13 +113,6 @@ public class StringDemo {
     		}
     		strWordFrequency[i] = freq;
     	}
-    	
-//    	for (int i = 0; i < strWordFrequency.length; i++) {
-//    		if (strWordFrequency[i] <= 0) {
-//    			continue;
-//    		}
-//    		System.out.print(wordArray[i] + ": " + strWordFrequency[i] + "\n");
-//    	}
     }
     
     public void setStrWordDuplicates() {
@@ -400,7 +385,7 @@ public class StringDemo {
     
     private void printSubstrings(List<String> strList) {
     	for (String str: strList)
-            System.out.print(str + "  ");
+            System.out.print("\'" + str + "\'");
     }
 
     private String sort(String str) {
