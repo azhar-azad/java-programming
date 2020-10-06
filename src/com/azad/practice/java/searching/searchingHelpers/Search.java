@@ -1,20 +1,21 @@
 package com.azad.practice.java.searching.searchingHelpers;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import com.azad.practice.java.Utility;
 
 public class Search {
 
-	private List<Integer> integerCollection = new ArrayList<>();
+	private List<Integer> collection = new ArrayList<>();
 	private int key;
 
 	public Search() {
 	}
 	
-	public List<Integer> getIntegerCollection() {
-		return integerCollection;
+	public List<Integer> getCollection() {
+		return collection;
 	}
 	
 	public int getKey() {
@@ -29,7 +30,7 @@ public class Search {
 		System.out.println("Enter the numbers: ");
 		while (itemCount > 0) {
 			int item = Utility.getIntegerInput("Not Allowed");
-			integerCollection.add(item);
+			collection.add(item);
 			--itemCount;
 		}
 		
@@ -53,8 +54,8 @@ public class Search {
 		 */
 		
 		int index = -1;
-		for (int i = 0; i < getSize(); i++) {
-			if (key == integerCollection.get(i)) {
+		for (int i = 0; i < collection.size(); i++) {
+			if (key == collection.get(i)) {
 				index = i;
 			}
 		}
@@ -63,14 +64,54 @@ public class Search {
 			System.out.println(key + " is not found");
 		}
 		else {
-			System.out.println(key + " is found at position " + (index + 1));
+			System.out.println(key + " is found");
 		}
-		
 	}
 	
+	public void doBinarySearch() {
+		
+		Collections.sort(collection);
+		
+		int first = 0;
+		int last = collection.size() - 1;
+		
+		int index = binarySearch(collection, key, first, last);
+		
+		if (index == -1) {
+			System.out.println(key + " is not found");
+		}
+		else {
+			System.out.println(key + " is found");
+		}
+	}
+	
+	private int binarySearch(List<Integer> collection, int key, int first, int last) {
+		
+		int mid = (first + last) / 2;
+		
+		while (first <= last ) {
+			
+			int itemToCheck = collection.get(mid);
+			
+			if (itemToCheck == key) { 
+				return mid;
+			}
+			
+			else if (itemToCheck < key) 
+				first = mid + 1;
+			
+			else 
+				last = mid - 1;
+			
+			mid = (first + last) / 2;
+		}
+		
+		return -1;
+	}
+
 	// --
 	
 	private int getSize() {
-		return integerCollection.size();
+		return collection.size();
 	}
 }
