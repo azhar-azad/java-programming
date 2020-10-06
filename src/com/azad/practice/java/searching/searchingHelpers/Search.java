@@ -13,14 +13,6 @@ public class Search {
 
 	public Search() {
 	}
-	
-	public List<Integer> getCollection() {
-		return collection;
-	}
-	
-	public int getKey() {
-		return key;
-	}
 
 	public void init() {
 		
@@ -107,11 +99,5 @@ public class Search {
 		}
 		
 		return -1;
-	}
-
-	// --
-	
-	private int getSize() {
-		return collection.size();
 	}
 }

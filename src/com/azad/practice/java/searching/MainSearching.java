@@ -11,11 +11,11 @@ public class MainSearching {
 		/*
 		SEARCH 1: Linear Search
 		 */
-//		System.out.println("\n\nLinear Search Demo\n============================\n");
-//		
-//		search.init();
-//		
-//		search.doLinearSearch();
+		System.out.println("\n\nLinear Search Demo\n============================\n");
+
+		search.init();
+
+		search.doLinearSearch();
 		/*
 		END SEARCH 1
 		 */
@@ -31,14 +31,6 @@ public class MainSearching {
 		search.doBinarySearch();
 		/*
 		END SEARCH 2
-		 */
-		
-		/*
-		SEARCH N: 
-		 */
-		
-		/*
-		END SEARCH N
 		 */
 	}
 
