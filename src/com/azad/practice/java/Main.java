@@ -20,5 +20,6 @@ public class Main {
 //        MainString.main(args);
          
         MainSearching.main(args);
+        System.out.println("test");
     }
 }
