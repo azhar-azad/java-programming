@@ -1,2 +1,9 @@
 .idea/
 out/
+
+.classpath
+.project
+hs_err_pid5376.log
+hs_err_pid9124.log
+hs_err_pid22099.log
+java-programming.iml
