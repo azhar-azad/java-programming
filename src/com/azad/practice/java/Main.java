@@ -7,15 +7,15 @@ import com.azad.practice.java.lambda.MainLambda;
 import com.azad.practice.java.matrix.MainMatrix;
 import com.azad.practice.java.searching.MainSearching;
 import com.azad.practice.java.string.MainString;
+import com.azad.practice.java.thread.MainThread;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.ExecutionException;
 
 public class Main {
 
-    public static void main(String[] args) throws ExecutionException, InterruptedException {
+    public static void main(String[] args) {
 	// write your code here
 
 //        MainBasic.main(args);
@@ -30,7 +30,8 @@ public class Main {
 
 //        MainLambda.main(args);
 
-        MainFunctionalInterfaces.main(args);
+//        MainFunctionalInterfaces.main(args);
 
+        MainThread.main(args);
     }
 }

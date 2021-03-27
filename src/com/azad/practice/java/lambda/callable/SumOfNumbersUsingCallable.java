@@ -10,7 +10,7 @@ public class SumOfNumbersUsingCallable {
     public static int[] array = IntStream.rangeClosed(0, 5000).toArray();
     public static int totalSumByIntStream = IntStream.rangeClosed(0, 5000).sum();
 
-    public static void main(String[] args) throws InterruptedException, ExecutionException {
+    public static void main(String[] args) {
 
         Callable callable1 = () -> {
             int sum = 0;
@@ -30,13 +30,26 @@ public class SumOfNumbersUsingCallable {
 
         ExecutorService executorService = Executors.newFixedThreadPool(2);
         List<Callable<Integer>> taskList = Arrays.asList(callable1, callable2);
-        List<Future<Integer>> resultList = executorService.invokeAll(taskList);
+        List<Future<Integer>> resultList = null;
+        try {
+            resultList = executorService.invokeAll(taskList);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         int threadCount = 0;
         int sum = 0;
         for (Future<Integer> result: resultList) {
-            sum += result.get();
-            System.out.println("Sum of thread " + ++threadCount + " is: " + result.get());
+            try {
+                sum += result.get();
+            } catch (InterruptedException | ExecutionException e) {
+                e.printStackTrace();
+            }
+            try {
+                System.out.println("Sum of thread " + ++threadCount + " is: " + result.get());
+            } catch (InterruptedException | ExecutionException e) {
+                e.printStackTrace();
+            }
         }
         System.out.println("Sum from the callable is: " + sum);
         System.out.println("Correct sum from IntStream is: " + totalSumByIntStream);
