@@ -1,6 +1,7 @@
 package com.azad.practice.java;
 
 import com.azad.practice.java.FilesAndStreams.MainFilesAndStreams;
+import com.azad.practice.java.GenericCollections.MainGenericCollections;
 
 public class Main {
 
@@ -23,6 +24,8 @@ public class Main {
 
 //        MainThread.main(args);
 
-        MainFilesAndStreams.main(args);
+//        MainFilesAndStreams.main(args);
+
+        MainGenericCollections.main(args);
     }
 }

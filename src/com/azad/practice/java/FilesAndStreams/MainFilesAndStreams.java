@@ -6,11 +6,11 @@ public class MainFilesAndStreams {
 
     public static void main(String[] args) {
 
-//        FileAndDirectoryInfo.main(args);
+        FileAndDirectoryInfo.main(args);
 
-//        CreateTextFile.main(args);
+        CreateTextFile.main(args);
 
-//        ReadTextFile.main(args);
+        ReadTextFile.main(args);
 
         CreditInquiry.main(args);
     }
