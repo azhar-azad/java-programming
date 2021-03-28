@@ -11,12 +11,12 @@ public class MainMatrix {
         /*
         MATRIX 1: Add two Matrices
          */
-//        System.out.println("\n\nMatrix Add Problem\n============================\n");
-//
-//        matrixOperator.init();
-//        matrixOperator.add();
-//
-//        matrixOperator.reset();
+        System.out.println("\n\nMatrix Add Problem\n============================\n");
+
+        matrixOperator.init();
+        matrixOperator.add();
+
+        matrixOperator.reset();
         /*
         END MATRIX 1
          */
@@ -25,12 +25,12 @@ public class MainMatrix {
         /*
         MATRIX 2: Subtract two Matrices
          */
-//        System.out.println("\n\nMatrix Subtract Problem\n============================\n");
-//
-//        matrixOperator.init();
-//        matrixOperator.subtract();
-//
-//        matrixOperator.reset();
+        System.out.println("\n\nMatrix Subtract Problem\n============================\n");
+
+        matrixOperator.init();
+        matrixOperator.subtract();
+
+        matrixOperator.reset();
         /*
         END MATRIX 1
          */
