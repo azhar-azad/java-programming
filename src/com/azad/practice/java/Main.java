@@ -1,17 +1,6 @@
 package com.azad.practice.java;
 
-import com.azad.practice.java.array.MainArray;
-import com.azad.practice.java.basic.MainBasic;
-import com.azad.practice.java.functionalInterfaces.MainFunctionalInterfaces;
-import com.azad.practice.java.lambda.MainLambda;
-import com.azad.practice.java.matrix.MainMatrix;
-import com.azad.practice.java.searching.MainSearching;
-import com.azad.practice.java.string.MainString;
-import com.azad.practice.java.thread.MainThread;
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import com.azad.practice.java.FilesAndStreams.MainFilesAndStreams;
 
 public class Main {
 
@@ -32,6 +21,8 @@ public class Main {
 
 //        MainFunctionalInterfaces.main(args);
 
-        MainThread.main(args);
+//        MainThread.main(args);
+
+        MainFilesAndStreams.main(args);
     }
 }
