@@ -4,6 +4,7 @@ import com.azad.practice.java.CustomGenericDS.MainCustomGenericDS;
 import com.azad.practice.java.FilesAndStreams.MainFilesAndStreams;
 import com.azad.practice.java.Generic.MainGeneric;
 import com.azad.practice.java.GenericCollections.MainGenericCollections;
+import com.azad.practice.java.LambdasAndStreams.MainLambdasAndStreams;
 
 public class Main {
 
@@ -32,6 +33,8 @@ public class Main {
 
 //        MainGeneric.main(args);
 
-        MainCustomGenericDS.main(args);
+//        MainCustomGenericDS.main(args);
+
+        MainLambdasAndStreams.main(args);
     }
 }
