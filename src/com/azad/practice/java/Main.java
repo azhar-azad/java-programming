@@ -1,6 +1,8 @@
 package com.azad.practice.java;
 
+import com.azad.practice.java.CustomGenericDS.MainCustomGenericDS;
 import com.azad.practice.java.FilesAndStreams.MainFilesAndStreams;
+import com.azad.practice.java.Generic.MainGeneric;
 import com.azad.practice.java.GenericCollections.MainGenericCollections;
 
 public class Main {
@@ -26,6 +28,10 @@ public class Main {
 
 //        MainFilesAndStreams.main(args);
 
-        MainGenericCollections.main(args);
+//        MainGenericCollections.main(args);
+
+//        MainGeneric.main(args);
+
+        MainCustomGenericDS.main(args);
     }
 }
