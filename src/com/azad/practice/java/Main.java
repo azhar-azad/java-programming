@@ -5,6 +5,7 @@ import com.azad.practice.java.FilesAndStreams.MainFilesAndStreams;
 import com.azad.practice.java.Generic.MainGeneric;
 import com.azad.practice.java.GenericCollections.MainGenericCollections;
 import com.azad.practice.java.LambdasAndStreams.MainLambdasAndStreams;
+import com.azad.practice.java.Recursion.MainRecursion;
 
 public class Main {
 
@@ -35,6 +36,8 @@ public class Main {
 
 //        MainCustomGenericDS.main(args);
 
-        MainLambdasAndStreams.main(args);
+//        MainLambdasAndStreams.main(args);
+
+        MainRecursion.main(args);
     }
 }
