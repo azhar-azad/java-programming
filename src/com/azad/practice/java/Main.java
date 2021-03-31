@@ -6,6 +6,7 @@ import com.azad.practice.java.Generic.MainGeneric;
 import com.azad.practice.java.GenericCollections.MainGenericCollections;
 import com.azad.practice.java.LambdasAndStreams.MainLambdasAndStreams;
 import com.azad.practice.java.Recursion.MainRecursion;
+import com.azad.practice.java.SearchingAndSorting.MainSearchingAndSorting;
 
 public class Main {
 
@@ -38,6 +39,8 @@ public class Main {
 
 //        MainLambdasAndStreams.main(args);
 
-        MainRecursion.main(args);
+//        MainRecursion.main(args);
+
+        MainSearchingAndSorting.main(args);
     }
 }
