@@ -48,8 +48,8 @@ public class MultiThreadDemo {
             // wait for other threads to end
             Thread.sleep(10000);
         } catch (InterruptedException e) {
-            System.out.println("Main Thread Interrupted.");
+            System.out.println("PracticeMain Thread Interrupted.");
         }
-        System.out.println("Main Thread exiting.");
+        System.out.println("PracticeMain Thread exiting.");
     }
 }

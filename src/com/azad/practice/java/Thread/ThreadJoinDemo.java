@@ -55,13 +55,13 @@ public class ThreadJoinDemo {
             nt2.getThread().join();
             nt3.getThread().join();
         } catch (InterruptedException e) {
-            System.out.println("Main Thread Interrupted.");
+            System.out.println("PracticeMain Thread Interrupted.");
         }
 
         System.out.println("Thread One is alive: " + nt1.getThread().isAlive());
         System.out.println("Thread Two is alive: " + nt2.getThread().isAlive());
         System.out.println("Thread Three is alive: " + nt3.getThread().isAlive());
 
-        System.out.println("Main Thread exiting.");
+        System.out.println("PracticeMain Thread exiting.");
     }
 }

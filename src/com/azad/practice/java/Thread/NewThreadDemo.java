@@ -42,12 +42,12 @@ public class NewThreadDemo {
 
         try {
             for (int i = 5; i > 0; i--) {
-                System.out.println("Main Thread: " + i);
+                System.out.println("PracticeMain Thread: " + i);
                 Thread.sleep(1000);
             }
         } catch (InterruptedException e) {
-            System.out.println("Main Thread interrupted.");
+            System.out.println("PracticeMain Thread interrupted.");
         }
-        System.out.println("Main Thread exiting.");
+        System.out.println("PracticeMain Thread exiting.");
     }
 }

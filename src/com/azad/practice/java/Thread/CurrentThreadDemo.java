@@ -18,7 +18,7 @@ public class CurrentThreadDemo {
                 Thread.sleep(1000);
             }
         } catch (InterruptedException e) {
-            System.out.println("Main Thread interrupted");
+            System.out.println("PracticeMain Thread interrupted");
         }
     }
 }

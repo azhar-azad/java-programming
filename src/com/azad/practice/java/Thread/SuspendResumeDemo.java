@@ -66,7 +66,7 @@ public class SuspendResumeDemo {
             t2.myresume();
             System.out.println("Resuming Thread Two");
         } catch (InterruptedException e) {
-            System.out.println("Main Thread Interrupted");
+            System.out.println("PracticeMain Thread Interrupted");
         }
 
         // wait for threads to finish
@@ -75,9 +75,9 @@ public class SuspendResumeDemo {
             t1.t.join();
             t2.t.join();
         } catch (InterruptedException e) {
-            System.out.println("Main Thread Interrupted");
+            System.out.println("PracticeMain Thread Interrupted");
         }
 
-        System.out.println("Main Thread exiting.");
+        System.out.println("PracticeMain Thread exiting.");
     }
 }
