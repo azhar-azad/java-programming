@@ -1,6 +1,6 @@
 package com.azad.java.learning.Practice;
 
-import com.azad.practice.java.Practice.Mod33Encryption.Mod33EncryptionMain;
+import com.azad.java.learning.Practice.Mod33Encryption.Mod33EncryptionMain;
 
 public class PracticeMain {
 
